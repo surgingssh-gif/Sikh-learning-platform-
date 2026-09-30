@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;family=Noto+Serif+Gurmukhi:wght@400;600&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#FFFFFF;text-decoration:none}a:hover{color:#FFE2B8}
+.glass{background:var(--glass);-webkit-backdrop-filter:blur(30px) saturate(150%);backdrop-filter:blur(30px) saturate(150%);border:1px solid rgba(255,255,255,0.26);box-shadow:inset 0 1px 0 rgba(255,255,255,0.35),0 16px 36px rgba(8,12,24,0.16)}
+.tile{background:rgba(255,255,255,0.10);border:1px solid rgba(255,255,255,0.18);box-shadow:inset 0 1px 0 rgba(255,255,255,0.22)}
+.bevel{background:rgba(255,255,255,0.12);border:1.5px solid rgba(255,255,255,0.55);box-shadow:inset 0 2px 6px rgba(255,255,255,0.28),inset 0 -4px 10px rgba(0,0,0,0.18),0 8px 18px rgba(0,0,0,0.22)}
+.kesri{background:#E98A15;color:#13213C;box-shadow:inset 0 1px 0 rgba(255,255,255,0.55),inset 0 -3px 8px rgba(120,50,0,0.25),0 10px 24px rgba(233,138,21,0.35)}
+.mono{font-family:'JetBrains Mono',monospace;letter-spacing:0.14em;text-transform:uppercase}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; position: relative; overflow: hidden; background: {{b.base}}; --glass: {{b.glass}}; color: #FFFFFF; font-family: 'Instrument Sans', sans-serif">
+
+  <div style="position: absolute; inset: -70px; filter: blur(52px)">
+    <svg viewBox="0 0 390 844" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" aria-hidden="true">
+      <rect width="390" height="844" fill="{{b.base}}"></rect>
+      <circle cx="250" cy="330" r="150" fill="{{b.glow}}"></circle>
+      <path d="M0 0 H390 V640 H370 V300 Q370 200 305 150 Q240 200 240 300 V640 H200 V300 Q200 200 135 150 Q70 200 70 300 V640 H30 V300 Q30 230 0 190 Z" fill="{{b.wall}}"></path>
+      <rect x="0" y="620" width="390" height="224" fill="{{b.floor}}"></rect>
+      <rect x="0" y="610" width="390" height="18" fill="{{b.glow}}" opacity="0.3"></rect>
+    </svg>
+  </div>
+  <div style="position: absolute; inset: 0; background: {{b.scrim}}"></div>
+
+  <div style="position: relative; height: 844px; overflow-y: auto; padding: 60px 16px 120px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px">
+
+    <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 4px 6px">
+      <div style="display: flex; flex-direction: column; gap: 4px">
+        <div class="mono" style="font-size: 11px; color: rgba(255,255,255,0.72)">Sat Sri Akal</div>
+        <div style="font-family: 'Newsreader', serif; font-size: 32px; font-weight: 500; line-height: 1.05">Jasmeet</div>
+      </div>
+      <button class="bevel" aria-label="Profile" style="width: 48px; height: 48px; border-radius: 50%; color: #FFFFFF; font-family: 'Instrument Sans', sans-serif; font-weight: 700; font-size: 16px; cursor: pointer">J</button>
+    </div>
+
+    <div class="glass" style="border-radius: 30px; padding: 14px; display: flex; flex-direction: column; gap: 14px">
+      <div style="position: relative; height: 150px; border-radius: 20px; overflow: hidden">
+        <svg viewBox="0 0 350 150" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" aria-hidden="true">
+          <rect width="350" height="150" fill="#F2C88E"></rect>
+          <circle cx="250" cy="70" r="30" fill="#E98A15"></circle>
+          <path d="M0 88 C80 76 170 86 350 78 L350 150 L0 150 Z" fill="#B9A274"></path>
+          <path d="M0 112 C90 100 200 122 350 104 L350 136 C200 150 90 126 0 142 Z" fill="#1C2E52"></path>
+          <path d="M30 88 L30 62 M30 66 C19 58 21 46 30 42 C39 46 41 58 30 66" stroke="#13213C" stroke-width="3" fill="#13213C"></path>
+          <rect x="110" y="68" width="24" height="16" fill="#13213C"></rect><path d="M108 68 L122 58 L136 68 Z" fill="#13213C"></path>
+        </svg>
+        <div class="glass mono" style="position: absolute; left: 10px; top: 10px; padding: 6px 10px; border-radius: 999px; font-size: 10px; box-shadow: none">1469 – 1500</div>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: center; padding: 0 6px">
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 4px">
+          <div class="mono" style="font-size: 10px; color: #FFD39A">Continue · Unit 1 · Lesson 2</div>
+          <div style="font-family: 'Newsreader', serif; font-size: 25px; font-weight: 500; line-height: 1.12">From Talwandi to the Bein</div>
+        </div>
+        <svg width="54" height="54" viewBox="0 0 52 52" aria-label="35% read"><circle cx="26" cy="26" r="22" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="5"></circle><circle cx="26" cy="26" r="22" fill="none" stroke="#F3A847" stroke-width="5" stroke-linecap="round" stroke-dasharray="48.4 138.2" transform="rotate(-90 26 26)"></circle><text x="26" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF" font-family="Instrument Sans">35%</text></svg>
+      </div>
+      <a href="Lesson.dc.html" class="kesri" style="display: flex; justify-content: center; align-items: center; gap: 8px; height: 54px; border-radius: 999px; font-weight: 700; font-size: 16px; color: #13213C">Continue reading
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </a>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+      <div class="glass" style="border-radius: 22px; padding: 14px; display: flex; flex-direction: column; gap: 10px; box-shadow: inset 0 1px 0 rgba(255,255,255,0.35)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F3A847" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5 0 2 1 3 2 3 0-3-1-6 1-9.5z"></path></svg>
+        <div style="font-size: 24px; font-weight: 600">6</div>
+        <div style="font-size: 12px; color: rgba(255,255,255,0.75)">day streak</div>
+      </div>
+      <div class="glass" style="border-radius: 22px; padding: 14px; display: flex; flex-direction: column; gap: 10px; box-shadow: inset 0 1px 0 rgba(255,255,255,0.35)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"></path><path d="M4 19V5"></path></svg>
+        <div style="font-size: 24px; font-weight: 600">3</div>
+        <div style="font-size: 12px; color: rgba(255,255,255,0.75)">lessons done</div>
+      </div>
+      <div class="glass" style="border-radius: 22px; padding: 14px; display: flex; flex-direction: column; gap: 10px; box-shadow: inset 0 1px 0 rgba(255,255,255,0.35)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M8 12.5l3 3 5-6"></path></svg>
+        <div style="font-size: 24px; font-weight: 600">88%</div>
+        <div style="font-size: 12px; color: rgba(255,255,255,0.75)">quiz mastery</div>
+      </div>
+    </div>
+
+    <div class="glass" style="border-radius: 28px; padding: 18px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 0 2px">
+        <h2 style="margin: 0; font-family: 'Newsreader', serif; font-size: 21px; font-weight: 500">Your path</h2>
+        <span class="mono" style="font-size: 10px; color: rgba(255,255,255,0.7)">2 of 9 open</span>
+      </div>
+      <div class="tile" style="border-radius: 18px; padding: 12px; display: flex; gap: 12px; align-items: center">
+        <div class="kesri" style="width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Newsreader', serif; font-size: 19px; font-weight: 600; box-shadow: inset 0 1px 0 rgba(255,255,255,0.55)">1</div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 6px">
+          <div style="font-weight: 600; font-size: 15px">Guru Nanak Dev Ji and the early Gurus</div>
+          <div style="height: 5px; border-radius: 3px; background: rgba(255,255,255,0.18)"><div style="width: 25%; height: 5px; border-radius: 3px; background: #F3A847"></div></div>
+        </div>
+      </div>
+      <div class="tile" style="border-radius: 18px; padding: 12px; display: flex; gap: 12px; align-items: center">
+        <div class="bevel" style="width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Newsreader', serif; font-size: 19px; font-weight: 600; box-sizing: border-box">2</div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 3px">
+          <div style="font-weight: 600; font-size: 15px">The later Gurus and the Khalsa</div>
+          <div style="font-size: 13px; color: rgba(255,255,255,0.72)">Not started · 14 lessons</div>
+        </div>
+      </div>
+      <div class="tile" style="border-radius: 18px; padding: 12px; display: flex; gap: 12px; align-items: center; opacity: 0.75">
+        <div style="width: 42px; height: 42px; border-radius: 50%; border: 1px dashed rgba(255,255,255,0.5); display: flex; align-items: center; justify-content: center; box-sizing: border-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+        </div>
+        <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 3px">
+          <div style="font-weight: 600; font-size: 15px">Banda Singh Bahadur and the Misls</div>
+          <div style="font-size: 13px; color: rgba(255,255,255,0.8)">Coming soon</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass" style="border-radius: 28px; padding: 18px; display: flex; gap: 14px; align-items: center">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 4px">
+        <div class="mono" style="font-size: 10px; color: rgba(255,255,255,0.72)">Word of the day</div>
+        <div style="font-family: 'Noto Serif Gurmukhi', serif; font-size: 26px; font-weight: 600; line-height: 1.35">ਕਿਰਤ ਕਰਨੀ</div>
+        <div style="font-family: 'Newsreader', serif; font-style: italic; font-size: 17px; color: #FFD39A">kirat karnī</div>
+        <div style="font-size: 14px; color: rgba(255,255,255,0.8)">Earning an honest living through your own work</div>
+      </div>
+      <button class="bevel" aria-label="Play pronunciation" style="width: 58px; height: 58px; flex-shrink: 0; border-radius: 50%; color: #FFFFFF; display: flex; align-items: center; justify-content: center; cursor: pointer">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"></path><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="glass" style="position: absolute; left: 16px; right: 16px; bottom: 26px; height: 66px; border-radius: 999px; padding: 7px; box-sizing: border-box; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 2px">
+    <a href="Home.dc.html" aria-label="Home" style="border-radius: 999px; background: rgba(255,255,255,0.22); box-shadow: inset 0 1px 0 rgba(255,255,255,0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 10px; font-weight: 700">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>Home</a>
+    <a href="Lesson.dc.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.8)">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"></path><path d="M4 19V5"></path></svg>Learn</a>
+    <a href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.8)">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"></path><circle cx="7" cy="12" r="2"></circle><circle cx="17" cy="12" r="2"></circle><path d="M12 7v10"></path></svg>Timeline</a>
+    <a href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.8)">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"></path><path d="M9 3v15M15 6v15"></path></svg>Map</a>
+    <a href="#" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.8)">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"></path><path d="M9 20h6"></path><path d="M12 4v16"></path></svg>Glossary</a>
+  </nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"backdrop":{"editor":"enum","options":["mist","sage","marble","sandstone","slate","night"],"default":"mist"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+const BACKDROPS = {
+mist: { base: '#8C97AE', glow: '#B4BDD0', wall: '#76819A', floor: '#66718A', scrim: 'rgba(16,20,34,0.18)', glass: 'rgba(30,38,60,0.24)' },
+sage: { base: '#97A08C', glow: '#B8BFA8', wall: '#7F8A76', floor: '#6E7866', scrim: 'rgba(18,24,16,0.20)', glass: 'rgba(34,42,32,0.26)' },
+marble: { base: '#D9D6D0', glow: '#EDE3CF', wall: '#C3BFB8', floor: '#B2ADA5', scrim: 'rgba(20,20,24,0.20)', glass: 'rgba(40,40,48,0.40)' },
+sandstone: { base: '#D8CCBA', glow: '#E6D2B0', wall: '#BBA892', floor: '#A7937E', scrim: 'rgba(30,22,16,0.18)', glass: 'rgba(58,46,38,0.34)' },
+slate: { base: '#98A1AC', glow: '#B9C2CB', wall: '#7F8995', floor: '#6C7682', scrim: 'rgba(14,18,26,0.22)', glass: 'rgba(40,46,56,0.22)' },
+night: { base: '#1E2840', glow: '#5E5A58', wall: '#161F35', floor: '#1C2640', scrim: 'rgba(6,10,20,0.10)', glass: 'rgba(255,255,255,0.08)' }
+};
+const b = BACKDROPS[this.props.backdrop ?? 'mist'] ?? BACKDROPS.mist;
+return { b };
+}
+}
+</script>
+</body>
+</html>

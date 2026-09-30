@@ -6,7 +6,7 @@ Read this file fully before any task. When a rule here conflicts with a request,
 
 ## Stack
 
-- **Expo** (managed workflow) + **TypeScript** (strict) + **Expo Router** (file-based routes in `app/`)
+- **Expo SDK 57** (managed workflow) + **TypeScript** (strict) + **Expo Router** (file-based routes in `src/app/`). Also read `AGENTS.md`: Expo APIs change every SDK, so check the versioned docs rather than memory.
 - **React Native Reanimated** for motion, **expo-haptics** for feedback, **expo-blur** for glass
 - **react-native-svg** for icons, progress rings and illustrations
 - **Zod** validates all content at build time
@@ -18,14 +18,14 @@ Local progress is stored with AsyncStorage until Supabase lands. Keep persistenc
 ## Folder structure
 
 ```
-app/                     Expo Router routes (screens only, thin)
-  (tabs)/                Home, Learn, Timeline, Map, Glossary
-  lesson/[slug].tsx
-  quiz/[slug].tsx
-  gallery.tsx            Component gallery (dev reference screen)
 src/
-  theme/                 tokens.ts, backdrops.ts, typography.ts, useTheme.ts
-  components/            Design-system components (one per file, named exports)
+  app/                   Expo Router routes (screens only, thin)
+    (tabs)/              Home, Learn, Timeline, Map, Glossary
+    lesson/[slug].tsx
+    quiz/[slug].tsx
+    gallery.tsx          Component gallery (dev reference screen)
+  theme/                 tokens.ts, backdrops.ts, typography.ts, ThemeProvider.tsx
+  components/            Design-system components (one per file, named exports, re-exported from index.ts)
   features/              Screen-level pieces grouped by feature (home/, lesson/, quiz/)
   lib/                   progress.ts, content loader, utils
   content/generated/     Build output of content/ (never edit by hand)
@@ -178,6 +178,12 @@ Launch with Units 1–2 done well. Signature features: interactive timeline (146
 3. Learning loop: mastery, dashboard, streaks.
 4. Timeline and map.
 5. Polish, TestFlight, EAS submit.
+
+## Design-system components (`src/components/`)
+
+`Screen` (backdrop + safe area), `Backdrop`, `Glass` (glass | smoke | tile), `Paper`, `QuoteBlock`, `PerspectivesCallout`, `Button` (kesri | bevel, icon-only), `PressableScale`, `Icon`, `Txt`, `ProgressRing`, `ProgressBar`, `SegmentedProgress`, `StatTile`, `UnitRow`, `GlossaryCard`, `QuizOption`, `Badge`, `TabBar`, `Skeleton`, `FadeIn`. All are shown on `/gallery`. Add new components there too.
+
+Run on the web with `npx expo start --web` and open `/gallery`.
 
 ## Working rules
 

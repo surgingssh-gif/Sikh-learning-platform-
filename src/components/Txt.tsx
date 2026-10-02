@@ -1,13 +1,14 @@
 import { Text, type TextProps } from 'react-native';
 
-import { color, textStyle, type TextVariant } from '@/theme';
+import { textStyle, useColors, type Palette, type TextVariant } from '@/theme';
 
-/** All text in the app goes through Txt so type styles stay on the scale. */
+/** All text goes through Txt so type stays on the scale. `tone` picks a palette colour. */
 export function Txt({
-  variant = 'ui',
-  tint = color.onGlass,
+  variant = 'body',
+  tone = 'ink',
   style,
   ...rest
-}: TextProps & { variant?: TextVariant; tint?: string }) {
-  return <Text {...rest} style={[textStyle[variant], { color: tint }, style]} />;
+}: TextProps & { variant?: TextVariant; tone?: keyof Palette }) {
+  const c = useColors();
+  return <Text {...rest} style={[textStyle[variant], { color: c[tone] }, style]} />;
 }

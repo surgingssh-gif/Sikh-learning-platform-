@@ -24,6 +24,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm run content
       - run: npm run typecheck
       - run: npx expo export --platform web
       # Serve unknown deep links through the app instead of GitHub's 404 page.

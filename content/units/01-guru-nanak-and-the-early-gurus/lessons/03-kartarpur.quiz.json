@@ -1,0 +1,9 @@
+{
+  "lessonId": "u1-l03-kartarpur",
+  "questions": [
+    { "id": "q1", "prompt": "On which river was Kartarpur founded?", "options": [ { "id": "a", "label": "The Ravi" }, { "id": "b", "label": "The Bein" }, { "id": "c", "label": "The Ganges" }, { "id": "d", "label": "The Sutlej" } ], "answer": "a", "explanation": "Guru Nanak Dev Ji founded Kartarpur on the banks of the Ravi." },
+    { "id": "q2", "prompt": "What is pangat?", "options": [ { "id": "a", "label": "A hymn sung in the morning" }, { "id": "b", "label": "Sitting together in rows to eat, as equals" }, { "id": "c", "label": "A type of farming" }, { "id": "d", "label": "A pilgrimage" } ], "answer": "b", "explanation": "In pangat, everyone sits on the same floor to eat langar, with no distinction of caste or status." },
+    { "id": "q3", "prompt": "Who did Guru Nanak Dev Ji choose as the second Guru?", "options": [ { "id": "a", "label": "His son Sri Chand" }, { "id": "b", "label": "Bhai Mardana" }, { "id": "c", "label": "Bhai Lehna, renamed Angad" }, { "id": "d", "label": "His son Lakhmi Das" } ], "answer": "c", "explanation": "He passed over his sons and chose Bhai Lehna, whom he renamed Angad." },
+    { "id": "q4", "prompt": "What opened in November 2019?", "options": [ { "id": "a", "label": "Gurdwara Bangla Sahib" }, { "id": "b", "label": "The Kartarpur Corridor" }, { "id": "c", "label": "The Golden Temple" }, { "id": "d", "label": "A new school in Khadur" } ], "answer": "b", "explanation": "The corridor lets pilgrims from India visit Gurdwara Darbar Sahib in Kartarpur, Pakistan, without a visa." }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  { "id": "ik-onkar", "gurmukhi": "ੴ", "translit": "Ik Onkār", "english": "One Creator. The opening of the Mool Mantar and of Sri Guru Granth Sahib Ji." },
+  { "id": "guru", "gurmukhi": "ਗੁਰੂ", "translit": "Gurū", "english": "Spiritual teacher and guide. Sikhs recognise ten human Gurus and Sri Guru Granth Sahib Ji as the eternal Guru." },
+  { "id": "gurbani", "gurmukhi": "ਗੁਰਬਾਣੀ", "translit": "Gurbāṇī", "english": "The Guru's word: the compositions of the Gurus and others collected in Sri Guru Granth Sahib Ji." },
+  { "id": "gurmukhi", "gurmukhi": "ਗੁਰਮੁਖੀ", "translit": "Gurmukhī", "english": "The script in which Punjabi and Gurbani are written." },
+  { "id": "janamsakhi", "gurmukhi": "ਜਨਮਸਾਖੀ", "translit": "janamsākhī", "english": "Traditional accounts of Guru Nanak Dev Ji's life, written down after his lifetime." },
+  { "id": "naam-japna", "gurmukhi": "ਨਾਮ ਜਪਣਾ", "translit": "nām japṇā", "english": "Remembering and meditating on the Divine Name." },
+  { "id": "kirat-karni", "gurmukhi": "ਕਿਰਤ ਕਰਨੀ", "translit": "kirat karnī", "english": "Earning an honest living through your own work." },
+  { "id": "vand-chhakna", "gurmukhi": "ਵੰਡ ਛਕਣਾ", "translit": "vaṇḍ chhakṇā", "english": "Sharing what you have with others." },
+  { "id": "udasi", "gurmukhi": "ਉਦਾਸੀ", "translit": "udāsī", "english": "One of Guru Nanak Dev Ji's long journeys to teach and meet people of many faiths." },
+  { "id": "rabab", "gurmukhi": "ਰਬਾਬ", "translit": "rabāb", "english": "A plucked string instrument. Bhai Mardana played it as Guru Nanak Dev Ji sang." },
+  { "id": "sangat", "gurmukhi": "ਸੰਗਤ", "translit": "sangat", "english": "The congregation; people gathered together in the Guru's presence." },
+  { "id": "langar", "gurmukhi": "ਲੰਗਰ", "translit": "langar", "english": "The free community kitchen, where everyone eats together as equals." },
+  { "id": "pangat", "gurmukhi": "ਪੰਗਤ", "translit": "pangat", "english": "Sitting together in rows to eat langar, with no distinction of caste or status." },
+  { "id": "seva", "gurmukhi": "ਸੇਵਾ", "translit": "sevā", "english": "Selfless service to others." },
+  { "id": "gurdwara", "gurmukhi": "ਗੁਰਦੁਆਰਾ", "translit": "gurdwārā", "english": "\"The Guru's door\": a Sikh place of worship." }
+]

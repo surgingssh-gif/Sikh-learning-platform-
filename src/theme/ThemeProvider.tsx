@@ -1,52 +1,27 @@
-import { createContext, useContext, useMemo, useRef, type ReactNode, type RefObject } from 'react';
-import { useColorScheme, type View } from 'react-native';
+import { createContext, useContext, useSyncExternalStore, type ReactNode } from 'react';
+import { useWindowDimensions } from 'react-native';
 
-import { backdrops, defaultBackdrop, type BackdropName, type BackdropPreset } from './backdrops';
-import { paper, type PaperPalette } from './tokens';
+import { layout, palettes, type Palette } from './tokens';
 
-type Theme = {
-  backdropName: BackdropName;
-  backdrop: BackdropPreset;
-  paper: PaperPalette;
-  scheme: 'light' | 'dark';
-};
+const ThemeContext = createContext<Palette>(palettes.light);
 
-const ThemeContext = createContext<Theme | null>(null);
-
-export function ThemeProvider({
-  backdrop = defaultBackdrop,
-  scheme: forcedScheme,
-  children,
-}: {
-  backdrop?: BackdropName;
-  scheme?: 'light' | 'dark';
-  children: ReactNode;
-}) {
-  const system = useColorScheme();
-  const scheme = forcedScheme ?? (system === 'dark' ? 'dark' : 'light');
-  const value = useMemo<Theme>(
-    () => ({ backdropName: backdrop, backdrop: backdrops[backdrop], paper: paper[scheme], scheme }),
-    [backdrop, scheme],
-  );
-  return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
+/** Light only for now. The dark palette exists in tokens.ts; switching it on is a later task. */
+export function ThemeProvider({ children }: { children: ReactNode }) {
+  return <ThemeContext.Provider value={palettes.light}>{children}</ThemeContext.Provider>;
 }
 
-export function useTheme(): Theme {
-  const theme = useContext(ThemeContext);
-  if (!theme) throw new Error('useTheme must be used inside <ThemeProvider>');
-  return theme;
+export function useColors(): Palette {
+  return useContext(ThemeContext);
 }
 
-/**
- * Android's blur needs a reference to the view it blurs (the backdrop).
- * <Screen> provides it; <Glass> reads it.
- */
-export const BlurTargetContext = createContext<RefObject<View | null> | null>(null);
-
-export function useBlurTargetRef() {
-  return useRef<View | null>(null);
+/** Breakpoints: phone below 700, tablet 700–959, desktop 960 and up. */
+export function useBreakpoint() {
+  const { width: measured } = useWindowDimensions();
+  // The static HTML is rendered without a window, so the first client render uses the
+  // phone layout too; the real width applies right after hydration. This keeps them in sync.
+  const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
+  const width = hydrated ? measured : 0;
+  return { width, isDesktop: width >= layout.desktop, isTablet: width >= layout.tablet };
 }
 
-export function useBlurTarget() {
-  return useContext(BlurTargetContext);
-}
+const noopSubscribe = () => () => {};

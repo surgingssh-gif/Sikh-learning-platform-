@@ -1,0 +1,11 @@
+[
+  { "number": 1, "slug": "guru-nanak-and-the-early-gurus", "title": "Guru Nanak Dev Ji and the early Gurus", "era": "1469 – 1606", "summary": "The life and teachings of Guru Nanak Dev Ji, his travels, the community at Kartarpur, and how the Guruship passed to Guru Angad Dev Ji.", "status": "open" },
+  { "number": 2, "slug": "the-later-gurus-and-the-khalsa", "title": "The later Gurus, martyrdom and the Khalsa", "era": "1606 – 1708", "summary": "From Guru Hargobind Sahib Ji to Guru Gobind Singh Ji: the Akal Takht, two martyrdoms, and the founding of the Khalsa in 1699.", "status": "soon" },
+  { "number": 3, "slug": "banda-singh-bahadur-and-the-misls", "title": "Banda Singh Bahadur and the Misl era", "era": "1708 – 1799", "summary": "Sikh resistance after Guru Gobind Singh Ji and the rise of the twelve misls.", "status": "soon" },
+  { "number": 4, "slug": "maharaja-ranjit-singh", "title": "Maharaja Ranjit Singh and the Sikh Empire", "era": "1799 – 1839", "summary": "How the misls were united into an empire ruled from Lahore.", "status": "soon" },
+  { "number": 5, "slug": "anglo-sikh-wars", "title": "The Anglo-Sikh wars and annexation", "era": "1839 – 1849", "summary": "The decline of the Lahore court, two wars with the British, and the annexation of Punjab.", "status": "soon" },
+  { "number": 6, "slug": "singh-sabha-and-gurdwara-reform", "title": "Singh Sabha and Gurdwara reform", "era": "1873 – 1925", "summary": "Revival movements, the struggle to free gurdwaras from mahants, and the founding of the SGPC.", "status": "soon" },
+  { "number": 7, "slug": "partition", "title": "Partition", "era": "1947", "summary": "The division of Punjab and what it meant for Sikh families on both sides of the new border.", "status": "soon" },
+  { "number": 8, "slug": "1984-and-its-aftermath", "title": "1984 and its aftermath", "era": "1984 – present", "summary": "Operation Blue Star, the November violence, and the decades that followed, told through more than one scholarly view.", "status": "soon" },
+  { "number": 9, "slug": "the-global-sikh-diaspora", "title": "The global Sikh diaspora", "era": "1890s – today", "summary": "Sikh communities in Britain, Canada, the United States, East Africa, Southeast Asia and beyond.", "status": "soon" }
+]

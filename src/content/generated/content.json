@@ -1,0 +1,1155 @@
+{
+  "units": [
+    {
+      "number": 1,
+      "slug": "guru-nanak-and-the-early-gurus",
+      "title": "Guru Nanak Dev Ji and the early Gurus",
+      "era": "1469 – 1606",
+      "summary": "The life and teachings of Guru Nanak Dev Ji, his travels, the community at Kartarpur, and how the Guruship passed to Guru Angad Dev Ji.",
+      "status": "open"
+    },
+    {
+      "number": 2,
+      "slug": "the-later-gurus-and-the-khalsa",
+      "title": "The later Gurus, martyrdom and the Khalsa",
+      "era": "1606 – 1708",
+      "summary": "From Guru Hargobind Sahib Ji to Guru Gobind Singh Ji: the Akal Takht, two martyrdoms, and the founding of the Khalsa in 1699.",
+      "status": "soon"
+    },
+    {
+      "number": 3,
+      "slug": "banda-singh-bahadur-and-the-misls",
+      "title": "Banda Singh Bahadur and the Misl era",
+      "era": "1708 – 1799",
+      "summary": "Sikh resistance after Guru Gobind Singh Ji and the rise of the twelve misls.",
+      "status": "soon"
+    },
+    {
+      "number": 4,
+      "slug": "maharaja-ranjit-singh",
+      "title": "Maharaja Ranjit Singh and the Sikh Empire",
+      "era": "1799 – 1839",
+      "summary": "How the misls were united into an empire ruled from Lahore.",
+      "status": "soon"
+    },
+    {
+      "number": 5,
+      "slug": "anglo-sikh-wars",
+      "title": "The Anglo-Sikh wars and annexation",
+      "era": "1839 – 1849",
+      "summary": "The decline of the Lahore court, two wars with the British, and the annexation of Punjab.",
+      "status": "soon"
+    },
+    {
+      "number": 6,
+      "slug": "singh-sabha-and-gurdwara-reform",
+      "title": "Singh Sabha and Gurdwara reform",
+      "era": "1873 – 1925",
+      "summary": "Revival movements, the struggle to free gurdwaras from mahants, and the founding of the SGPC.",
+      "status": "soon"
+    },
+    {
+      "number": 7,
+      "slug": "partition",
+      "title": "Partition",
+      "era": "1947",
+      "summary": "The division of Punjab and what it meant for Sikh families on both sides of the new border.",
+      "status": "soon"
+    },
+    {
+      "number": 8,
+      "slug": "1984-and-its-aftermath",
+      "title": "1984 and its aftermath",
+      "era": "1984 – present",
+      "summary": "Operation Blue Star, the November violence, and the decades that followed, told through more than one scholarly view.",
+      "status": "soon"
+    },
+    {
+      "number": 9,
+      "slug": "the-global-sikh-diaspora",
+      "title": "The global Sikh diaspora",
+      "era": "1890s – today",
+      "summary": "Sikh communities in Britain, Canada, the United States, East Africa, Southeast Asia and beyond.",
+      "status": "soon"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "u1-l01-from-talwandi-to-the-bein",
+      "slug": "from-talwandi-to-the-bein",
+      "unit": 1,
+      "order": 1,
+      "title": "From Talwandi to the Bein",
+      "dek": "A village boy who asked uncomfortable questions grew into the First Guru. This is how Guru Nanak Dev Ji's mission began.",
+      "era": "1469 – c. 1500",
+      "readMinutes": 7,
+      "status": "draft",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "figure": "bein",
+      "figureCaption": "Dawn on the Bein river near Sultanpur Lodhi. Placeholder for a commissioned illustration.",
+      "sources": [
+        "grewal-1990",
+        "harbans-singh-1969",
+        "encyclopaedia-sikhism"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Guru Nanak Dev Ji was born in 1469 in Rai Bhoi di Talwandi, a village west of Lahore. Today it is called Nankana Sahib, and it lies in Pakistan. His father, Mehta Kalu, kept the village accounts. His mother was Mata Tripta. His older sister, Bebe Nanaki, is remembered as one of the first people to recognise that her brother was unusual."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "A restless, questioning boy"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Most of what we know about his childhood comes from the "
+            },
+            {
+              "type": "term",
+              "id": "janamsakhi",
+              "text": "janamsakhis"
+            },
+            {
+              "type": "text",
+              "text": ", collections of stories about his life written down after he died. They describe a thoughtful boy who argued with his teachers and was more interested in big questions than in the family business."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "One of the best-known stories is the "
+            },
+            {
+              "type": "em",
+              "text": "Sacha Sauda"
+            },
+            {
+              "type": "text",
+              "text": ", the \"true bargain\". His father gave him money to trade at a market. On the way, he met a group of hungry holy men and spent all of it feeding them. When his father was angry, Nanak said he had made the most profitable deal possible."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Sultanpur Lodhi"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "As a young man he married Mata Sulakhni, and they had two sons, Sri Chand and Lakhmi Das. He moved to Sultanpur Lodhi, where Bebe Nanaki lived with her husband, and took a job as a storekeeper for the local governor, Daulat Khan Lodi. People remembered him as honest and generous with the grain in his care."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Each morning, before dawn, he bathed in the nearby Bein river and sat in meditation."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Three days in the river"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Around 1499, the janamsakhis say, he went into the Bein and did not come back. His friends searched the banks for three days and feared he had drowned. When he returned, he was changed. He sat silently for a time, and when he spoke, his first words were remembered like this:"
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "gurmukhi": "ਨਾ ਕੋ ਹਿੰਦੂ ਨਾ ਮੁਸਲਮਾਨ",
+          "translit": "Nā ko Hindū, nā Musalmān",
+          "english": "There is no Hindu, there is no Muslim.",
+          "attribution": "As recorded in the janamsakhis"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "He did not mean that religions did not exist. He meant that God does not see people by the labels they give themselves, and that what matters is how a person lives."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "A way of living"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "From this point he began to teach. His message is summed up in the words that open Sri Guru Granth Sahib Ji, the Mool Mantar, which begins with "
+            },
+            {
+              "type": "term",
+              "id": "ik-onkar",
+              "text": "Ik Onkar"
+            },
+            {
+              "type": "text",
+              "text": ", \"One Creator\":"
+            }
+          ]
+        },
+        {
+          "type": "quote",
+          "gurmukhi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+          "translit": "Ik Onkār sat nām kartā purakh nirbhau nirvair akāl mūrat ajūnī saibhaṅ gur prasād",
+          "english": "One Creator. Truth is the Name. Creative being, without fear, without hate, timeless in form, beyond birth, self-existent, known by the Guru's grace.",
+          "attribution": "Sri Guru Granth Sahib Ji, Ang 1 (one common translation)"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "He also taught a practical path built on three practices that Sikhs still describe today: "
+            },
+            {
+              "type": "term",
+              "id": "naam-japna",
+              "text": "naam japna"
+            },
+            {
+              "type": "text",
+              "text": ", remembering the Divine; "
+            },
+            {
+              "type": "term",
+              "id": "kirat-karni",
+              "text": "kirat karni"
+            },
+            {
+              "type": "text",
+              "text": ", earning an honest living; and "
+            },
+            {
+              "type": "term",
+              "id": "vand-chhakna",
+              "text": "vand chhakna"
+            },
+            {
+              "type": "text",
+              "text": ", sharing with others."
+            }
+          ]
+        },
+        {
+          "type": "perspectives",
+          "content": [
+            [
+              {
+                "type": "text",
+                "text": "Almost everything we know about Guru Nanak Dev Ji's early life comes from the janamsakhis, which were written down decades after his death and differ from one another in their details and dates. Some historians, such as W.H. McLeod, read them mainly as devotional literature and are cautious about treating individual stories as history. Others, such as Harbans Singh, see them as preserving real memories of the Guru, shaped by the people who passed them on. Both views agree on the outline: the birth at Talwandi, the years at Sultanpur Lodhi, and a turning point that launched his mission."
+              }
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "prompt": "Where was Guru Nanak Dev Ji born?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Amritsar"
+            },
+            {
+              "id": "b",
+              "label": "Rai Bhoi di Talwandi, now Nankana Sahib"
+            },
+            {
+              "id": "c",
+              "label": "Sultanpur Lodhi"
+            },
+            {
+              "id": "d",
+              "label": "Kartarpur"
+            }
+          ],
+          "answer": "b",
+          "explanation": "He was born in 1469 in Rai Bhoi di Talwandi, now called Nankana Sahib, in present-day Pakistan."
+        },
+        {
+          "id": "q2",
+          "prompt": "What job did he hold in Sultanpur Lodhi?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Storekeeper for the governor, Daulat Khan Lodi"
+            },
+            {
+              "id": "b",
+              "label": "Village accountant"
+            },
+            {
+              "id": "c",
+              "label": "Soldier"
+            },
+            {
+              "id": "d",
+              "label": "Teacher"
+            }
+          ],
+          "answer": "a",
+          "explanation": "He looked after the governor's stores. Village accountant was his father's job in Talwandi."
+        },
+        {
+          "id": "q3",
+          "prompt": "In the Sacha Sauda story, what did he do with the money for trading?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Bought cloth to sell"
+            },
+            {
+              "id": "b",
+              "label": "Gave it back to his father"
+            },
+            {
+              "id": "c",
+              "label": "Fed a group of hungry holy men"
+            },
+            {
+              "id": "d",
+              "label": "Built a well"
+            }
+          ],
+          "answer": "c",
+          "explanation": "He called feeding the hungry the \"true bargain\", the best trade he could make."
+        },
+        {
+          "id": "q4",
+          "prompt": "Which practice means earning an honest living?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Naam japna"
+            },
+            {
+              "id": "b",
+              "label": "Kirat karni"
+            },
+            {
+              "id": "c",
+              "label": "Vand chhakna"
+            },
+            {
+              "id": "d",
+              "label": "Seva"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Kirat karni is honest work. Naam japna is remembering the Divine, and vand chhakna is sharing."
+        }
+      ]
+    },
+    {
+      "id": "u1-l02-the-udasis",
+      "slug": "the-udasis",
+      "unit": 1,
+      "order": 2,
+      "title": "The Udasis",
+      "dek": "For about twenty years Guru Nanak Dev Ji travelled on foot, with a Muslim musician at his side, to talk with people of every faith.",
+      "era": "c. 1500 – c. 1520",
+      "readMinutes": 7,
+      "status": "draft",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "figure": "road",
+      "figureCaption": "The road out of Punjab. Placeholder for a commissioned illustration.",
+      "sources": [
+        "grewal-1990",
+        "harbans-singh-1969",
+        "mcleod-1968"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "After his experience at the Bein, Guru Nanak Dev Ji did not stay in Sultanpur Lodhi. He set out on a series of long journeys known as the "
+            },
+            {
+              "type": "term",
+              "id": "udasi",
+              "text": "udasis"
+            },
+            {
+              "type": "text",
+              "text": ". Tradition describes four main journeys, east, south, north and west, which took him across much of South Asia and beyond."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "A companion with a rabab"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "He did not travel alone. Bhai Mardana, a Muslim musician from Talwandi who had known him since childhood, went with him and played the "
+            },
+            {
+              "type": "term",
+              "id": "rabab",
+              "text": "rabab"
+            },
+            {
+              "type": "text",
+              "text": " while the Guru sang. Their partnership was itself a message: a Hindu-born teacher and a Muslim musician, making music together about one Creator."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Guru Nanak Dev Ji taught through song. Many of the hymns he composed on these journeys were later collected in Sri Guru Granth Sahib Ji, and they are still sung in every "
+            },
+            {
+              "type": "term",
+              "id": "gurdwara",
+              "text": "gurdwara"
+            },
+            {
+              "type": "text",
+              "text": " today."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Questions, not lectures"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "The janamsakhis remember him less for long sermons than for simple actions that made people think."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "At Hardwar, on the Ganges, he saw pilgrims throwing water towards the rising sun as an offering to their ancestors. He began throwing water in the opposite direction. When people asked what he was doing, he said he was watering his fields in Punjab. If their water could reach the sun, his could surely reach a few hundred miles."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "In the west, tradition says he travelled as far as Mecca. When he lay down to rest with his feet towards the Kaaba, a man angrily told him to move. He replied by asking the man to turn his feet in a direction where God was not."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Bhai Lalo and Malik Bhago"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "At Saidpur, now Eminabad in Pakistan, he chose to stay with Bhai Lalo, a poor carpenter, instead of accepting a feast from Malik Bhago, a rich official. In the story, the Guru takes bread from each of them and squeezes it. Milk flows from Bhai Lalo's bread, earned by honest work, and blood from Malik Bhago's, earned by exploiting others."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "The story puts "
+            },
+            {
+              "type": "term",
+              "id": "kirat-karni",
+              "text": "kirat karni"
+            },
+            {
+              "type": "text",
+              "text": ", honest living, at the centre of what it means to be religious."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Witness to an invasion"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "While Guru Nanak Dev Ji was in Saidpur, the town was attacked by the army of Babur, who would go on to found the Mughal Empire. The Guru described the suffering he saw in a set of hymns known as the Babarvani, which are part of Sri Guru Granth Sahib Ji. They are among the earliest eyewitness responses to Babur's invasion, and they speak openly against the cruelty of rulers."
+            }
+          ]
+        },
+        {
+          "type": "perspectives",
+          "content": [
+            [
+              {
+                "type": "text",
+                "text": "The overall picture of long journeys is widely accepted, but the details are debated. The janamsakhis disagree about the order, length and destinations of the udasis, and some of the farthest journeys, such as those to Mecca, Baghdad and Sri Lanka, are known mainly from tradition. Historians such as W.H. McLeod have argued that we cannot confirm many specific places. Others point to long-standing local traditions and gurdwaras at sites associated with the Guru as evidence that his travels were remembered across a very wide area."
+              }
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "prompt": "Who travelled with Guru Nanak Dev Ji on the udasis?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Bhai Lehna"
+            },
+            {
+              "id": "b",
+              "label": "Bhai Mardana"
+            },
+            {
+              "id": "c",
+              "label": "Bebe Nanaki"
+            },
+            {
+              "id": "d",
+              "label": "Daulat Khan Lodi"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Bhai Mardana, a Muslim musician from Talwandi, played the rabab as the Guru sang."
+        },
+        {
+          "id": "q2",
+          "prompt": "At Hardwar, why did he throw water in the opposite direction?",
+          "options": [
+            {
+              "id": "a",
+              "label": "To start an argument"
+            },
+            {
+              "id": "b",
+              "label": "He was lost"
+            },
+            {
+              "id": "c",
+              "label": "To make people question whether the ritual could work"
+            },
+            {
+              "id": "d",
+              "label": "It was a local custom"
+            }
+          ],
+          "answer": "c",
+          "explanation": "He said he was watering his fields in Punjab, gently asking whether water could really reach ancestors near the sun."
+        },
+        {
+          "id": "q3",
+          "prompt": "In the story of Bhai Lalo and Malik Bhago, what does the milk in Bhai Lalo's bread stand for?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Wealth"
+            },
+            {
+              "id": "b",
+              "label": "Food earned by honest work"
+            },
+            {
+              "id": "c",
+              "label": "Royal favour"
+            },
+            {
+              "id": "d",
+              "label": "Luck"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Bhai Lalo's bread came from honest labour, kirat karni. Malik Bhago's came from exploiting others."
+        },
+        {
+          "id": "q4",
+          "prompt": "What are the Babarvani hymns about?",
+          "options": [
+            {
+              "id": "a",
+              "label": "The founding of Kartarpur"
+            },
+            {
+              "id": "b",
+              "label": "Guru Nanak Dev Ji's childhood"
+            },
+            {
+              "id": "c",
+              "label": "The suffering caused by Babur's invasion"
+            },
+            {
+              "id": "d",
+              "label": "The Bein river"
+            }
+          ],
+          "answer": "c",
+          "explanation": "Guru Nanak Dev Ji witnessed Babur's attack on Saidpur and described its cruelty in these hymns."
+        }
+      ]
+    },
+    {
+      "id": "u1-l03-kartarpur",
+      "slug": "kartarpur",
+      "unit": 1,
+      "order": 3,
+      "title": "Kartarpur and the second Guru",
+      "dek": "In his final years Guru Nanak Dev Ji farmed his own fields, built a community around shared meals and song, and chose a successor who was not his son.",
+      "era": "c. 1520 – 1552",
+      "readMinutes": 6,
+      "status": "draft",
+      "reviewedBy": null,
+      "reviewedOn": null,
+      "figure": "fields",
+      "figureCaption": "Fields on the banks of the Ravi. Placeholder for a commissioned illustration.",
+      "sources": [
+        "grewal-1990",
+        "harbans-singh-1969",
+        "encyclopaedia-sikhism"
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "When his travels ended, Guru Nanak Dev Ji settled at Kartarpur, a town he had founded on the banks of the Ravi river. He lived there with his family for the rest of his life, and it became the first Sikh community."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Living the teaching"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "At Kartarpur the Guru did not live off offerings. He worked his own fields. The three practices he had taught on his journeys became the shape of an ordinary day."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Mornings and evenings began with hymns sung together by the "
+            },
+            {
+              "type": "term",
+              "id": "sangat",
+              "text": "sangat"
+            },
+            {
+              "type": "text",
+              "text": ". Food was cooked and shared in the "
+            },
+            {
+              "type": "term",
+              "id": "langar",
+              "text": "langar"
+            },
+            {
+              "type": "text",
+              "text": ", where everyone sat together in a "
+            },
+            {
+              "type": "term",
+              "id": "pangat",
+              "text": "pangat"
+            },
+            {
+              "type": "text",
+              "text": ", rich and poor, high caste and low, on the same floor. Visitors could see that equality was not just something the Guru preached. It was how the community ate dinner."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Bhai Lehna"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "One of the people drawn to Kartarpur was Bhai Lehna, from the village of Khadur. He had been a devotee of the goddess Durga, but after hearing a hymn of Guru Nanak Dev Ji he came to meet him and stayed."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "The janamsakhis tell many stories of his devotion and "
+            },
+            {
+              "type": "term",
+              "id": "seva",
+              "text": "seva"
+            },
+            {
+              "type": "text",
+              "text": ", doing whatever the Guru asked without hesitation, even when the Guru's own sons refused. Guru Nanak Dev Ji gave him a new name, Angad. It is often explained as coming from "
+            },
+            {
+              "type": "em",
+              "text": "ang"
+            },
+            {
+              "type": "text",
+              "text": ", a limb: someone who had become part of the Guru himself."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "A successor chosen by merit"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Before he died in 1539, Guru Nanak Dev Ji named Angad as the next Guru, passing over his own sons. This decision set a pattern that mattered for the future: the Guruship would pass to the person most fit for it, not automatically to the next in the family."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "A well-known tradition says that after his death, his Hindu and Muslim followers disagreed over whether to cremate or bury him. When they lifted the sheet covering his body, they found only flowers, which they divided between them. At Kartarpur today there is both a memorial and a grave."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Guru Angad Dev Ji"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Guru Angad Dev Ji led the Sikhs from Khadur from 1539 to 1552. His wife, Mata Khivi, ran the langar and became known for her generosity. Guru Angad Dev Ji is credited with developing and popularising the "
+            },
+            {
+              "type": "term",
+              "id": "gurmukhi",
+              "text": "Gurmukhi"
+            },
+            {
+              "type": "text",
+              "text": " script, in which Punjabi and "
+            },
+            {
+              "type": "term",
+              "id": "gurbani",
+              "text": "Gurbani"
+            },
+            {
+              "type": "text",
+              "text": " are written."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Kartarpur today"
+        },
+        {
+          "type": "p",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kartarpur lies in Pakistan, only a few kilometres from the border with India. For decades Sikh pilgrims from India could only look at the gurdwara through binoculars from the Indian side. In November 2019 the Kartarpur Corridor opened, allowing pilgrims to cross and visit Gurdwara Darbar Sahib without a visa."
+            }
+          ]
+        },
+        {
+          "type": "perspectives",
+          "content": [
+            [
+              {
+                "type": "text",
+                "text": "Historians agree that Guru Nanak Dev Ji spent his last years at Kartarpur and appointed Guru Angad Dev Ji as his successor in 1539. Dates for when he settled there vary between sources. On the Gurmukhi script, scholars generally agree that forms of it existed before Guru Angad Dev Ji, and they discuss his role as refining and spreading it rather than inventing it from nothing."
+              }
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "prompt": "On which river was Kartarpur founded?",
+          "options": [
+            {
+              "id": "a",
+              "label": "The Ravi"
+            },
+            {
+              "id": "b",
+              "label": "The Bein"
+            },
+            {
+              "id": "c",
+              "label": "The Ganges"
+            },
+            {
+              "id": "d",
+              "label": "The Sutlej"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Guru Nanak Dev Ji founded Kartarpur on the banks of the Ravi."
+        },
+        {
+          "id": "q2",
+          "prompt": "What is pangat?",
+          "options": [
+            {
+              "id": "a",
+              "label": "A hymn sung in the morning"
+            },
+            {
+              "id": "b",
+              "label": "Sitting together in rows to eat, as equals"
+            },
+            {
+              "id": "c",
+              "label": "A type of farming"
+            },
+            {
+              "id": "d",
+              "label": "A pilgrimage"
+            }
+          ],
+          "answer": "b",
+          "explanation": "In pangat, everyone sits on the same floor to eat langar, with no distinction of caste or status."
+        },
+        {
+          "id": "q3",
+          "prompt": "Who did Guru Nanak Dev Ji choose as the second Guru?",
+          "options": [
+            {
+              "id": "a",
+              "label": "His son Sri Chand"
+            },
+            {
+              "id": "b",
+              "label": "Bhai Mardana"
+            },
+            {
+              "id": "c",
+              "label": "Bhai Lehna, renamed Angad"
+            },
+            {
+              "id": "d",
+              "label": "His son Lakhmi Das"
+            }
+          ],
+          "answer": "c",
+          "explanation": "He passed over his sons and chose Bhai Lehna, whom he renamed Angad."
+        },
+        {
+          "id": "q4",
+          "prompt": "What opened in November 2019?",
+          "options": [
+            {
+              "id": "a",
+              "label": "Gurdwara Bangla Sahib"
+            },
+            {
+              "id": "b",
+              "label": "The Kartarpur Corridor"
+            },
+            {
+              "id": "c",
+              "label": "The Golden Temple"
+            },
+            {
+              "id": "d",
+              "label": "A new school in Khadur"
+            }
+          ],
+          "answer": "b",
+          "explanation": "The corridor lets pilgrims from India visit Gurdwara Darbar Sahib in Kartarpur, Pakistan, without a visa."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "ik-onkar",
+      "gurmukhi": "ੴ",
+      "translit": "Ik Onkār",
+      "english": "One Creator. The opening of the Mool Mantar and of Sri Guru Granth Sahib Ji."
+    },
+    {
+      "id": "guru",
+      "gurmukhi": "ਗੁਰੂ",
+      "translit": "Gurū",
+      "english": "Spiritual teacher and guide. Sikhs recognise ten human Gurus and Sri Guru Granth Sahib Ji as the eternal Guru."
+    },
+    {
+      "id": "gurbani",
+      "gurmukhi": "ਗੁਰਬਾਣੀ",
+      "translit": "Gurbāṇī",
+      "english": "The Guru's word: the compositions of the Gurus and others collected in Sri Guru Granth Sahib Ji."
+    },
+    {
+      "id": "gurmukhi",
+      "gurmukhi": "ਗੁਰਮੁਖੀ",
+      "translit": "Gurmukhī",
+      "english": "The script in which Punjabi and Gurbani are written."
+    },
+    {
+      "id": "janamsakhi",
+      "gurmukhi": "ਜਨਮਸਾਖੀ",
+      "translit": "janamsākhī",
+      "english": "Traditional accounts of Guru Nanak Dev Ji's life, written down after his lifetime."
+    },
+    {
+      "id": "naam-japna",
+      "gurmukhi": "ਨਾਮ ਜਪਣਾ",
+      "translit": "nām japṇā",
+      "english": "Remembering and meditating on the Divine Name."
+    },
+    {
+      "id": "kirat-karni",
+      "gurmukhi": "ਕਿਰਤ ਕਰਨੀ",
+      "translit": "kirat karnī",
+      "english": "Earning an honest living through your own work."
+    },
+    {
+      "id": "vand-chhakna",
+      "gurmukhi": "ਵੰਡ ਛਕਣਾ",
+      "translit": "vaṇḍ chhakṇā",
+      "english": "Sharing what you have with others."
+    },
+    {
+      "id": "udasi",
+      "gurmukhi": "ਉਦਾਸੀ",
+      "translit": "udāsī",
+      "english": "One of Guru Nanak Dev Ji's long journeys to teach and meet people of many faiths."
+    },
+    {
+      "id": "rabab",
+      "gurmukhi": "ਰਬਾਬ",
+      "translit": "rabāb",
+      "english": "A plucked string instrument. Bhai Mardana played it as Guru Nanak Dev Ji sang."
+    },
+    {
+      "id": "sangat",
+      "gurmukhi": "ਸੰਗਤ",
+      "translit": "sangat",
+      "english": "The congregation; people gathered together in the Guru's presence."
+    },
+    {
+      "id": "langar",
+      "gurmukhi": "ਲੰਗਰ",
+      "translit": "langar",
+      "english": "The free community kitchen, where everyone eats together as equals."
+    },
+    {
+      "id": "pangat",
+      "gurmukhi": "ਪੰਗਤ",
+      "translit": "pangat",
+      "english": "Sitting together in rows to eat langar, with no distinction of caste or status."
+    },
+    {
+      "id": "seva",
+      "gurmukhi": "ਸੇਵਾ",
+      "translit": "sevā",
+      "english": "Selfless service to others."
+    },
+    {
+      "id": "gurdwara",
+      "gurmukhi": "ਗੁਰਦੁਆਰਾ",
+      "translit": "gurdwārā",
+      "english": "\"The Guru's door\": a Sikh place of worship."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grewal-1990",
+      "citation": "J.S. Grewal, The Sikhs of the Punjab (The New Cambridge History of India II.3). Cambridge University Press, 1990."
+    },
+    {
+      "id": "harbans-singh-1969",
+      "citation": "Harbans Singh, Guru Nanak and Origins of the Sikh Faith. Asia Publishing House, 1969."
+    },
+    {
+      "id": "mcleod-1968",
+      "citation": "W.H. McLeod, Guru Nanak and the Sikh Religion. Clarendon Press, 1968."
+    },
+    {
+      "id": "singh-pashaura-2006",
+      "citation": "Pashaura Singh, Life and Work of Guru Arjan. Oxford University Press, 2006."
+    },
+    {
+      "id": "encyclopaedia-sikhism",
+      "citation": "Harbans Singh (ed.), The Encyclopaedia of Sikhism, 4 vols. Punjabi University, Patiala, 1992–1998."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1469",
+      "title": "Guru Nanak Dev Ji is born",
+      "detail": "In Rai Bhoi di Talwandi, now Nankana Sahib, Pakistan.",
+      "unit": 1
+    },
+    {
+      "year": "c. 1499",
+      "title": "The experience at the Bein",
+      "detail": "At Sultanpur Lodhi, the turning point that began his mission.",
+      "unit": 1
+    },
+    {
+      "year": "1539",
+      "title": "Guru Angad Dev Ji becomes Guru",
+      "detail": "Guru Nanak Dev Ji passes the Guruship to Bhai Lehna and dies at Kartarpur.",
+      "unit": 1
+    },
+    {
+      "year": "1552",
+      "title": "Guru Amar Das Ji becomes Guru",
+      "detail": "He strengthens langar and organises the growing community.",
+      "unit": 1
+    },
+    {
+      "year": "1574",
+      "title": "Guru Ram Das Ji becomes Guru",
+      "detail": "He founds the town of Ramdaspur, later Amritsar.",
+      "unit": 1
+    },
+    {
+      "year": "1604",
+      "title": "The Adi Granth is installed",
+      "detail": "Guru Arjan Dev Ji installs the compiled scripture at Harmandir Sahib.",
+      "unit": 1
+    },
+    {
+      "year": "1606",
+      "title": "Martyrdom of Guru Arjan Dev Ji",
+      "detail": "In Lahore, under the Mughal emperor Jahangir.",
+      "unit": 2
+    },
+    {
+      "year": "1675",
+      "title": "Martyrdom of Guru Tegh Bahadur Ji",
+      "detail": "Executed in Delhi on the orders of Aurangzeb.",
+      "unit": 2
+    },
+    {
+      "year": "1699",
+      "title": "The Khalsa is founded",
+      "detail": "Guru Gobind Singh Ji creates the Khalsa at Anandpur on Vaisakhi.",
+      "unit": 2
+    },
+    {
+      "year": "1708",
+      "title": "Guru Granth Sahib Ji becomes the eternal Guru",
+      "detail": "Guru Gobind Singh Ji passes the Guruship to the scripture.",
+      "unit": 2
+    },
+    {
+      "year": "1716",
+      "title": "Execution of Banda Singh Bahadur",
+      "detail": "After years of campaigns against Mughal rule in Punjab.",
+      "unit": 3
+    },
+    {
+      "year": "1799",
+      "title": "Ranjit Singh takes Lahore",
+      "detail": "The start of a unified Sikh state; he is proclaimed Maharaja in 1801.",
+      "unit": 4
+    },
+    {
+      "year": "1849",
+      "title": "Punjab is annexed by the British",
+      "detail": "After the second Anglo-Sikh war.",
+      "unit": 5
+    },
+    {
+      "year": "1873",
+      "title": "The first Singh Sabha is founded",
+      "detail": "In Amritsar, beginning a movement of religious and educational revival.",
+      "unit": 6
+    },
+    {
+      "year": "1925",
+      "title": "The Sikh Gurdwaras Act",
+      "detail": "Places historic gurdwaras under elected Sikh management.",
+      "unit": 6
+    },
+    {
+      "year": "1947",
+      "title": "Partition",
+      "detail": "Punjab is divided between India and Pakistan.",
+      "unit": 7
+    },
+    {
+      "year": "1984",
+      "title": "Operation Blue Star and the November violence",
+      "detail": "Events covered in Unit 8 with more than one scholarly view.",
+      "unit": 8
+    },
+    {
+      "year": "2019",
+      "title": "The Kartarpur Corridor opens",
+      "detail": "Pilgrims from India can visit Kartarpur without a visa.",
+      "unit": 1
+    }
+  ]
+}

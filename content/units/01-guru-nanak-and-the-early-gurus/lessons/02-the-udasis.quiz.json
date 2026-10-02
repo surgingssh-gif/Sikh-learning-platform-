@@ -1,0 +1,9 @@
+{
+  "lessonId": "u1-l02-the-udasis",
+  "questions": [
+    { "id": "q1", "prompt": "Who travelled with Guru Nanak Dev Ji on the udasis?", "options": [ { "id": "a", "label": "Bhai Lehna" }, { "id": "b", "label": "Bhai Mardana" }, { "id": "c", "label": "Bebe Nanaki" }, { "id": "d", "label": "Daulat Khan Lodi" } ], "answer": "b", "explanation": "Bhai Mardana, a Muslim musician from Talwandi, played the rabab as the Guru sang." },
+    { "id": "q2", "prompt": "At Hardwar, why did he throw water in the opposite direction?", "options": [ { "id": "a", "label": "To start an argument" }, { "id": "b", "label": "He was lost" }, { "id": "c", "label": "To make people question whether the ritual could work" }, { "id": "d", "label": "It was a local custom" } ], "answer": "c", "explanation": "He said he was watering his fields in Punjab, gently asking whether water could really reach ancestors near the sun." },
+    { "id": "q3", "prompt": "In the story of Bhai Lalo and Malik Bhago, what does the milk in Bhai Lalo's bread stand for?", "options": [ { "id": "a", "label": "Wealth" }, { "id": "b", "label": "Food earned by honest work" }, { "id": "c", "label": "Royal favour" }, { "id": "d", "label": "Luck" } ], "answer": "b", "explanation": "Bhai Lalo's bread came from honest labour, kirat karni. Malik Bhago's came from exploiting others." },
+    { "id": "q4", "prompt": "What are the Babarvani hymns about?", "options": [ { "id": "a", "label": "The founding of Kartarpur" }, { "id": "b", "label": "Guru Nanak Dev Ji's childhood" }, { "id": "c", "label": "The suffering caused by Babur's invasion" }, { "id": "d", "label": "The Bein river" } ], "answer": "c", "explanation": "Guru Nanak Dev Ji witnessed Babur's attack on Saidpur and described its cruelty in these hymns." }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "lessonId": "u1-l01-from-talwandi-to-the-bein",
+  "questions": [
+    { "id": "q1", "prompt": "Where was Guru Nanak Dev Ji born?", "options": [ { "id": "a", "label": "Amritsar" }, { "id": "b", "label": "Rai Bhoi di Talwandi, now Nankana Sahib" }, { "id": "c", "label": "Sultanpur Lodhi" }, { "id": "d", "label": "Kartarpur" } ], "answer": "b", "explanation": "He was born in 1469 in Rai Bhoi di Talwandi, now called Nankana Sahib, in present-day Pakistan." },
+    { "id": "q2", "prompt": "What job did he hold in Sultanpur Lodhi?", "options": [ { "id": "a", "label": "Storekeeper for the governor, Daulat Khan Lodi" }, { "id": "b", "label": "Village accountant" }, { "id": "c", "label": "Soldier" }, { "id": "d", "label": "Teacher" } ], "answer": "a", "explanation": "He looked after the governor's stores. Village accountant was his father's job in Talwandi." },
+    { "id": "q3", "prompt": "In the Sacha Sauda story, what did he do with the money for trading?", "options": [ { "id": "a", "label": "Bought cloth to sell" }, { "id": "b", "label": "Gave it back to his father" }, { "id": "c", "label": "Fed a group of hungry holy men" }, { "id": "d", "label": "Built a well" } ], "answer": "c", "explanation": "He called feeding the hungry the \"true bargain\", the best trade he could make." },
+    { "id": "q4", "prompt": "Which practice means earning an honest living?", "options": [ { "id": "a", "label": "Naam japna" }, { "id": "b", "label": "Kirat karni" }, { "id": "c", "label": "Vand chhakna" }, { "id": "d", "label": "Seva" } ], "answer": "b", "explanation": "Kirat karni is honest work. Naam japna is remembering the Divine, and vand chhakna is sharing." }
+  ]
+}

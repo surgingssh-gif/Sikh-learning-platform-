@@ -1,49 +1,44 @@
-import { View } from 'react-native';
+import { Pressable, View } from 'react-native';
+import Svg, { Path } from 'react-native-svg';
 
-import { color, radius, space } from '@/theme';
+import type { Term } from '@/content';
+import { space, useColors } from '@/theme';
 
-import { Button } from './Button';
-import { Glass } from './Glass';
 import { Txt } from './Txt';
 
-export type GlossaryTerm = { gurmukhi: string; translit: string; english: string };
-
-/**
- * Gurmukhi, transliteration and English together, with a pronunciation button.
- * `glass` sits on the backdrop (word of the day); `smoke` pops over paper in lessons.
- */
-export function GlossaryCard({
-  term,
-  kicker = 'Glossary',
-  variant = 'glass',
-  onPlay,
-}: {
-  term: GlossaryTerm;
-  kicker?: string;
-  variant?: 'glass' | 'smoke';
-  onPlay?: () => void;
-}) {
+/** Gurmukhi, transliteration and English together, in that order. */
+export function GlossaryCard({ term, onClose, compact = false }: { term: Term; onClose?: () => void; compact?: boolean }) {
+  const c = useColors();
   return (
-    <Glass
-      variant={variant}
-      radius={variant === 'smoke' ? 24 : radius.panel - 2}
-      style={{ padding: space.lg + 2, flexDirection: 'row', alignItems: 'center', gap: space.md + 2 }}
+    <View
+      style={{
+        borderLeftWidth: compact ? 0 : 3,
+        borderLeftColor: c.accent,
+        backgroundColor: compact ? 'transparent' : c.surface,
+        paddingVertical: compact ? 0 : space.lg,
+        paddingHorizontal: compact ? 0 : space.lg,
+        flexDirection: 'row',
+        gap: space.md,
+      }}
     >
-      <View style={{ flex: 1, gap: 3 }}>
-        <Txt variant="label" tint={color.onGlassMuted}>
-          {kicker}
-        </Txt>
-        <Txt variant="gurmukhi" style={variant === 'smoke' ? { fontSize: 22, lineHeight: 31 } : undefined}>
+      <View style={{ flex: 1, gap: 2 }}>
+        <Txt variant="gurmukhi" style={{ fontSize: compact ? 28 : 22, lineHeight: compact ? 40 : 32 }}>
           {term.gurmukhi}
         </Txt>
-        <Txt variant="translit" tint={color.kesriLight}>
+        <Txt variant="translit" tone="accent">
           {term.translit}
         </Txt>
-        <Txt variant="ui" tint="rgba(255,255,255,0.82)" style={{ fontSize: 14, lineHeight: 20 }}>
+        <Txt variant="bodySmall" tone="ink2">
           {term.english}
         </Txt>
       </View>
-      <Button variant="bevel" icon="speaker" accessibilityLabel={`Play pronunciation of ${term.translit}`} onPress={onPlay} />
-    </Glass>
+      {onClose ? (
+        <Pressable onPress={onClose} accessibilityRole="button" accessibilityLabel="Close definition" style={{ width: 44, height: 44, alignItems: 'center', justifyContent: 'center', marginTop: -space.sm, marginRight: -space.sm }}>
+          <Svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke={c.muted} strokeWidth={2} strokeLinecap="round">
+            <Path d="M6 6l12 12M18 6 6 18" />
+          </Svg>
+        </Pressable>
+      ) : null}
+    </View>
   );
 }

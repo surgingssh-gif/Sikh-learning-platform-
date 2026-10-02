@@ -10,8 +10,11 @@ readMinutes: 7
 status: draft
 reviewedBy: null
 reviewedOn: null
-figure: bein
-figureCaption: Dawn on the Bein river near Sultanpur Lodhi. Placeholder for a commissioned illustration.
+image: nankana-sahib
+keyPoints:
+  - "Guru Nanak Dev Ji was born in 1469 in Rai Bhoi di Talwandi, now Nankana Sahib in Pakistan."
+  - "He worked as a storekeeper in Sultanpur Lodhi, where around 1499 he had a life-changing experience in the Bein river."
+  - "He taught three practices: remembering the Divine, earning an honest living, and sharing with others."
 sources: [grewal-1990, harbans-singh-1969, encyclopaedia-sikhism]
 ---
 
@@ -28,6 +31,9 @@ One of the best-known stories is the *Sacha Sauda*, the "true bargain". His fath
 As a young man he married Mata Sulakhni, and they had two sons, Sri Chand and Lakhmi Das. He moved to Sultanpur Lodhi, where Bebe Nanaki lived with her husband, and took a job as a storekeeper for the local governor, Daulat Khan Lodi. People remembered him as honest and generous with the grain in his care.
 
 Each morning, before dawn, he bathed in the nearby Bein river and sat in meditation.
+
+:::figure id="ber-sahib"
+:::
 
 ## Three days in the river
 

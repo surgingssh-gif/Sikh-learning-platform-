@@ -10,8 +10,12 @@ readMinutes: 7
 status: draft
 reviewedBy: null
 reviewedOn: null
-figure: road
-figureCaption: The road out of Punjab. Placeholder for a commissioned illustration.
+image: janamsakhi-1733
+keyPoints:
+  - "For about twenty years Guru Nanak Dev Ji made long journeys, called udasis, with Bhai Mardana."
+  - "He taught through song and through simple actions that made people question empty ritual."
+  - "The story of Bhai Lalo puts honest work at the centre of religious life."
+  - "Details of the journeys come mainly from the janamsakhis, and historians debate them."
 sources: [grewal-1990, harbans-singh-1969, mcleod-1968]
 ---
 
@@ -20,6 +24,9 @@ After his experience at the Bein, Guru Nanak Dev Ji did not stay in Sultanpur Lo
 ## A companion with a rabab
 
 He did not travel alone. Bhai Mardana, a Muslim musician from Talwandi who had known him since childhood, went with him and played the [[rabab|rabab]] while the Guru sang. Their partnership was itself a message: a Hindu-born teacher and a Muslim musician, making music together about one Creator.
+
+:::figure id="janamsakhi-travellers"
+:::
 
 Guru Nanak Dev Ji taught through song. Many of the hymns he composed on these journeys were later collected in Sri Guru Granth Sahib Ji, and they are still sung in every [[gurdwara|gurdwara]] today.
 
@@ -34,6 +41,9 @@ In the west, tradition says he travelled as far as Mecca. When he lay down to re
 ## Bhai Lalo and Malik Bhago
 
 At Saidpur, now Eminabad in Pakistan, he chose to stay with Bhai Lalo, a poor carpenter, instead of accepting a feast from Malik Bhago, a rich official. In the story, the Guru takes bread from each of them and squeezes it. Milk flows from Bhai Lalo's bread, earned by honest work, and blood from Malik Bhago's, earned by exploiting others.
+
+:::figure id="janamsakhi-bhai-lalo"
+:::
 
 The story puts [[kirat-karni|kirat karni]], honest living, at the centre of what it means to be religious.
 

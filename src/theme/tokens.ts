@@ -19,6 +19,7 @@ export type Palette = {
   incorrect: string;
   incorrectSoft: string;
   onInk: string;
+  water: string;
 };
 
 export const palettes: Record<'light' | 'dark', Palette> = {
@@ -38,6 +39,7 @@ export const palettes: Record<'light' | 'dark', Palette> = {
     incorrect: '#B42318',
     incorrectSoft: '#FCEBE9',
     onInk: '#FFFFFF',
+    water: '#7FA6C6',
   },
   dark: {
     bg: '#121212',
@@ -55,6 +57,7 @@ export const palettes: Record<'light' | 'dark', Palette> = {
     incorrect: '#F07167',
     incorrectSoft: '#2E1614',
     onInk: '#121212',
+    water: '#3E6A8E',
   },
 };
 

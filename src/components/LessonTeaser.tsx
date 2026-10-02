@@ -6,7 +6,7 @@ import type { LessonProgress } from '@/lib/progress';
 import { space, useColors } from '@/theme';
 
 import { Badge } from './Badge';
-import { Illustration } from './Illustration';
+import { Photo } from './Photo';
 import { Txt } from './Txt';
 
 /** Headline + dek + byline, the way a front page lists a story. */
@@ -30,9 +30,9 @@ export function LessonTeaser({
       <Pressable accessibilityRole="link" style={{ gap: space.sm }}>
         {({ hovered }) => (
           <>
-            {showImage && lesson.figure ? (
+            {showImage ? (
               <View style={{ marginBottom: space.sm }}>
-                <Illustration name={lesson.figure} label={lesson.figureCaption ?? lesson.title} />
+                <Photo id={lesson.image} variant="crop" />
               </View>
             ) : null}
             <Txt variant="kicker" tone="accent">

@@ -9,8 +9,10 @@ import { Txt } from './Txt';
 
 const LINKS = [
   { href: '/units', label: 'All units' },
+  { href: '/map', label: 'Map' },
   { href: '/timeline', label: 'Timeline' },
   { href: '/glossary', label: 'Glossary' },
+  { href: '/search', label: 'Search' },
   { href: '/about', label: 'About and review process' },
 ] as const;
 

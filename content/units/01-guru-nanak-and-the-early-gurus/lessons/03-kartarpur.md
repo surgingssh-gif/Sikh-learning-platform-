@@ -10,8 +10,12 @@ readMinutes: 6
 status: draft
 reviewedBy: null
 reviewedOn: null
-figure: fields
-figureCaption: Fields on the banks of the Ravi. Placeholder for a commissioned illustration.
+image: kartarpur
+keyPoints:
+  - "Guru Nanak Dev Ji spent his final years at Kartarpur, farming his own fields among the community."
+  - "Langar and pangat made equality part of everyday life."
+  - "He chose Bhai Lehna, renamed Angad, as the second Guru instead of his own sons."
+  - "Kartarpur is in Pakistan. Since 2019 a corridor lets pilgrims from India visit."
 sources: [grewal-1990, harbans-singh-1969, encyclopaedia-sikhism]
 ---
 
@@ -38,6 +42,9 @@ A well-known tradition says that after his death, his Hindu and Muslim followers
 ## Guru Angad Dev Ji
 
 Guru Angad Dev Ji led the Sikhs from Khadur from 1539 to 1552. His wife, Mata Khivi, ran the langar and became known for her generosity. Guru Angad Dev Ji is credited with developing and popularising the [[gurmukhi|Gurmukhi]] script, in which Punjabi and [[gurbani|Gurbani]] are written.
+
+:::figure id="khadur-sahib-early"
+:::
 
 ## Kartarpur today
 

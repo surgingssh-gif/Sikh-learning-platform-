@@ -7,9 +7,9 @@ import {
   Button,
   Container,
   GlossaryCard,
-  Illustration,
   LessonTeaser,
   Page,
+  Photo,
   ProgressBar,
   Rule,
   SectionHead,
@@ -36,10 +36,7 @@ export default function Home() {
                 <Button label="Read the first lesson" href={{ pathname: '/lessons/[slug]', params: { slug: lead.slug } }} />
               </View>
               <View style={{ flex: isTablet ? 7 : undefined, gap: space.sm }}>
-                {lead.figure ? <Illustration name={lead.figure} label={lead.figureCaption ?? lead.title} /> : null}
-                <Txt variant="caption" tone="muted">
-                  {lead.figureCaption}
-                </Txt>
+                <Photo id={lead.image} />
               </View>
             </View>
 

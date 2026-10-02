@@ -11,16 +11,19 @@ import { Txt } from './Txt';
 
 const NAV = [
   { href: '/units', label: 'Units' },
+  { href: '/map', label: 'Map' },
   { href: '/timeline', label: 'Timeline' },
   { href: '/glossary', label: 'Glossary' },
+  { href: '/search', label: 'Search' },
   { href: '/about', label: 'About' },
 ] as const;
 
 function NavLinks({ center }: { center?: boolean }) {
   const pathname = usePathname();
   const c = useColors();
+  const { isTablet } = useBreakpoint();
   return (
-    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ flexGrow: 1, justifyContent: center ? 'center' : 'flex-end', gap: space.xl }}>
+    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ flexGrow: 1, justifyContent: center ? 'center' : 'flex-end', gap: isTablet ? space.xl : space.lg }}>
       {NAV.map((n) => {
         const active = pathname === n.href || pathname.startsWith(n.href + '/');
         return (

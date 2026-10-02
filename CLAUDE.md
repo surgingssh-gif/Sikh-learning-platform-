@@ -7,7 +7,7 @@ Read this file fully before any task. When a rule here conflicts with a request,
 ## Stack
 
 - **Expo SDK 57** + **TypeScript** (strict) + **Expo Router** (file-based routes in `src/app/`), exported as a **static website** (`web.output: "static"`). Also read `AGENTS.md`: Expo APIs change every SDK, so check the versioned docs rather than memory.
-- **react-native-svg** for illustrations and icons. **Zod** validates all content at build time.
+- **react-native-svg** for the map and icons; **expo-image** for photos. **Zod** validates all content at build time.
 - Fonts via `@expo-google-fonts/*`: Newsreader, Libre Franklin, Noto Serif Gurmukhi.
 - Progress is stored with AsyncStorage (localStorage on web) behind `src/lib/progress.ts`. Moving to Supabase later means changing that file only.
 - Hosting: GitHub Pages via `.github/workflows/deploy-web.yml` on every push to `main`. `experiments.baseUrl` in `app.json` is `/Sikh-learning-platform-`; keep links router-based (`<Link href="/...">`) so the base path is applied.
@@ -24,9 +24,9 @@ Read this file fully before any task. When a rule here conflicts with a request,
 ```
 src/
   app/                   Routes: index (front page), units/index, units/[slug], lessons/[slug],
-                         timeline, glossary, about, +not-found, +html (static HTML shell)
+                         map, timeline, glossary, search, about, +not-found, +html (static HTML shell)
   components/            Editorial components (one per file, re-exported from index.ts)
-  content/               schema.ts (Zod), index.ts (typed helpers), generated/content.json
+  content/               schema.ts (Zod), index.ts (typed helpers), generated/content.json + images.ts
   lib/                   progress.ts, useHydrated.ts
   theme/                 tokens.ts, typography.ts, ThemeProvider.tsx, site.ts (name + tagline)
 content/
@@ -36,6 +36,9 @@ content/
   glossary/terms.json
   sources/sources.json
   timeline/events.json
+  media/media.json       Every photo: file, size, alt, caption, credit, licence, source URL
+  places/places.json     Map places: real lat/lon, Gurmukhi name, periods, linked lessons
+assets/images/           Photo files (resized to ≤1600px wide, JPEG q78)
 scripts/build-content.ts Validates content with Zod, writes src/content/generated/content.json
 ```
 
@@ -83,7 +86,7 @@ Gurmukhi always appears with transliteration and English together, in that order
 
 ### Components (`src/components/`)
 
-`Page` (head tags + header + footer + scroll), `SiteHeader` (masthead | compact), `SiteFooter`, `Container` (max 1200, or narrow 680), `Rule` (hair | strong | double | vertical), `SectionHead`, `Txt`, `Button` (solid | outline, `href` or `onPress`), `Badge`, `LessonTeaser` (XL/L/M/S), `ArticleBody` (renders lesson blocks, tappable glossary terms, `QuoteBlock`, perspectives box), `GlossaryCard`, `Quiz`, `ProgressBar`, `Illustration` (placeholder SVG scenes: bein, road, fields).
+`Page` (head tags + header + footer + scroll), `SiteHeader` (masthead | compact), `SiteFooter`, `Container` (max 1200, or narrow 680), `Rule` (hair | strong | double | vertical), `SectionHead`, `Txt`, `Button` (solid | outline, `href` or `onPress`), `Badge`, `LessonTeaser` (XL/L/M/S), `ArticleBody` (renders lesson blocks, tappable glossary terms, `QuoteBlock`, figures, perspectives box), `GlossaryCard`, `Quiz`, `ProgressBar`, `Photo` (figure with caption + credit, or 3:2 crop), `PlacesMap` (SVG map with period filter). `Page` takes `readingProgress` for the bar on lesson pages.
 
 Gotchas:
 - Inside `<Link asChild>`, give the child a flat style object: style functions are dropped and arrays break on web.
@@ -107,8 +110,9 @@ readMinutes: 7
 status: draft            # draft | in-review | approved
 reviewedBy: null         # reviewer's name once approved
 reviewedOn: null
-figure: bein             # optional: bein | road | fields
-figureCaption: ...
+image: nankana-sahib      # hero image id from content/media/media.json
+keyPoints:               # 2–4 bullets shown as "In short"
+  - "..."
 sources: [grewal-1990, harbans-singh-1969]
 ---
 ```
@@ -117,10 +121,17 @@ Body: paragraphs, `## Subheads`, `*italic*`, and:
 - Glossary term: `[[kirat-karni|kirat karni]]` (id from `content/glossary/terms.json`, then display text)
 - Quote: `:::quote gurmukhi="..." translit="..." english="..." attribution="..."` then a line `:::`
 - Historians' views: `:::perspectives` … `:::`
+- Photo: `:::figure id="ber-sahib"` then a line `:::`
 
 Quizzes (`*.quiz.json`): `{ "lessonId", "questions": [{ "id", "prompt", "options": [{ "id", "label" }], "answer", "explanation" }] }`.
 
-`scripts/build-content.ts` fails on any schema error, unknown glossary or source id, quiz answer that isn't an option, or approved lesson without a reviewer. CI runs it before deploying.
+`scripts/build-content.ts` fails on any schema error, unknown glossary, source or image id, missing image file, place linked to an unknown lesson, quiz answer that isn't an option, or approved lesson without a reviewer. CI runs it before deploying.
+
+## Images
+
+- Use only public-domain or Creative Commons images (Wikimedia Commons is the main source; its API needs a descriptive User-Agent). Record author, licence, licence URL and source page in `media.json`; the `Photo` component prints the credit.
+- Prefer real places (gurdwaras, landscapes), historic photographs and historic janamsakhi paintings. Do not use AI-generated or invented images of the Gurus.
+- Captions must be accurate to the source's own description. If unsure what a painting shows, describe it generally.
 
 ## Content integrity (non-negotiable)
 
@@ -143,7 +154,7 @@ Quizzes (`*.quiz.json`): `{ "lessonId", "questions": [{ "id", "prompt", "options
 8. 1984 and its aftermath
 9. The global Sikh diaspora
 
-Launch with Units 1–2 done well. Signature features: timeline (live, basic), era-aware map of Punjab (planned), glossary with Gurmukhi, transliteration, English (live; audio planned).
+Launch with Units 1–2 done well. Signature features: timeline (live), era-aware map of Punjab (live, `/map`, approximate positions), glossary with Gurmukhi, transliteration, English (live; audio planned), search (live).
 
 ## Working rules
 

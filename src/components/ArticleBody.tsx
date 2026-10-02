@@ -5,6 +5,7 @@ import { getTerm, type Block, type Inline } from '@/content';
 import { font, space, useColors } from '@/theme';
 
 import { GlossaryCard } from './GlossaryCard';
+import { Photo } from './Photo';
 import { Txt } from './Txt';
 
 /** Renders a lesson's blocks. Glossary terms are tappable and open their definition below the paragraph. */
@@ -25,6 +26,12 @@ export function ArticleBody({ blocks }: { blocks: Block[] }) {
             return <QuoteBlock key={i} {...b} />;
           case 'perspectives':
             return <Perspectives key={i} paragraphs={b.content} />;
+          case 'figure':
+            return (
+              <View key={i} style={{ marginVertical: space.sm }}>
+                <Photo id={b.id} />
+              </View>
+            );
         }
       })}
     </View>

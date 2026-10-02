@@ -86,8 +86,12 @@
       "status": "draft",
       "reviewedBy": null,
       "reviewedOn": null,
-      "figure": "bein",
-      "figureCaption": "Dawn on the Bein river near Sultanpur Lodhi. Placeholder for a commissioned illustration.",
+      "image": "nankana-sahib",
+      "keyPoints": [
+        "Guru Nanak Dev Ji was born in 1469 in Rai Bhoi di Talwandi, now Nankana Sahib in Pakistan.",
+        "He worked as a storekeeper in Sultanpur Lodhi, where around 1499 he had a life-changing experience in the Bein river.",
+        "He taught three practices: remembering the Divine, earning an honest living, and sharing with others."
+      ],
       "sources": [
         "grewal-1990",
         "harbans-singh-1969",
@@ -163,6 +167,10 @@
               "text": "Each morning, before dawn, he bathed in the nearby Bein river and sat in meditation."
             }
           ]
+        },
+        {
+          "type": "figure",
+          "id": "ber-sahib"
         },
         {
           "type": "h2",
@@ -381,8 +389,13 @@
       "status": "draft",
       "reviewedBy": null,
       "reviewedOn": null,
-      "figure": "road",
-      "figureCaption": "The road out of Punjab. Placeholder for a commissioned illustration.",
+      "image": "janamsakhi-1733",
+      "keyPoints": [
+        "For about twenty years Guru Nanak Dev Ji made long journeys, called udasis, with Bhai Mardana.",
+        "He taught through song and through simple actions that made people question empty ritual.",
+        "The story of Bhai Lalo puts honest work at the centre of religious life.",
+        "Details of the journeys come mainly from the janamsakhis, and historians debate them."
+      ],
       "sources": [
         "grewal-1990",
         "harbans-singh-1969",
@@ -428,6 +441,10 @@
               "text": " while the Guru sang. Their partnership was itself a message: a Hindu-born teacher and a Muslim musician, making music together about one Creator."
             }
           ]
+        },
+        {
+          "type": "figure",
+          "id": "janamsakhi-travellers"
         },
         {
           "type": "p",
@@ -490,6 +507,10 @@
               "text": "At Saidpur, now Eminabad in Pakistan, he chose to stay with Bhai Lalo, a poor carpenter, instead of accepting a feast from Malik Bhago, a rich official. In the story, the Guru takes bread from each of them and squeezes it. Milk flows from Bhai Lalo's bread, earned by honest work, and blood from Malik Bhago's, earned by exploiting others."
             }
           ]
+        },
+        {
+          "type": "figure",
+          "id": "janamsakhi-bhai-lalo"
         },
         {
           "type": "p",
@@ -645,8 +666,13 @@
       "status": "draft",
       "reviewedBy": null,
       "reviewedOn": null,
-      "figure": "fields",
-      "figureCaption": "Fields on the banks of the Ravi. Placeholder for a commissioned illustration.",
+      "image": "kartarpur",
+      "keyPoints": [
+        "Guru Nanak Dev Ji spent his final years at Kartarpur, farming his own fields among the community.",
+        "Langar and pangat made equality part of everyday life.",
+        "He chose Bhai Lehna, renamed Angad, as the second Guru instead of his own sons.",
+        "Kartarpur is in Pakistan. Since 2019 a corridor lets pilgrims from India visit."
+      ],
       "sources": [
         "grewal-1990",
         "harbans-singh-1969",
@@ -802,6 +828,10 @@
               "text": " are written."
             }
           ]
+        },
+        {
+          "type": "figure",
+          "id": "khadur-sahib-early"
         },
         {
           "type": "h2",
@@ -1150,6 +1180,234 @@
       "title": "The Kartarpur Corridor opens",
       "detail": "Pilgrims from India can visit Kartarpur without a visa.",
       "unit": 1
+    }
+  ],
+  "media": [
+    {
+      "id": "nankana-sahib",
+      "file": "lessons/nankana-sahib-janam-asthan.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "The white domed building of Gurdwara Janam Asthan at Nankana Sahib under a blue sky, with a palm tree and a paved approach.",
+      "caption": "Gurdwara Janam Asthan at Nankana Sahib, Pakistan, built where Guru Nanak Dev Ji is remembered to have been born.",
+      "credit": "Harvinder Chandigarh",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gurdwara_Nankana_Sahib_Janam_Asthan.jpg"
+    },
+    {
+      "id": "ber-sahib",
+      "file": "lessons/ber-sahib-sultanpur-lodhi.jpg",
+      "width": 1400,
+      "height": 1016,
+      "alt": "Gurdwara Ber Sahib in Sultanpur Lodhi, a white building with a large dome, with visitors walking in front.",
+      "caption": "Gurdwara Ber Sahib in Sultanpur Lodhi, beside the Bein, marks the place associated with Guru Nanak Dev Ji's experience at the river.",
+      "credit": "Jiwanjot",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Ber_Sahib.jpg"
+    },
+    {
+      "id": "janamsakhi-1733",
+      "file": "lessons/janamsakhi-1733-b40.jpg",
+      "width": 1100,
+      "height": 1683,
+      "alt": "An illustrated manuscript page with lines of Gurmukhi text above a painted scene of seated figures in a landscape.",
+      "caption": "A page from a janamsakhi manuscript made in 1733, one of the oldest surviving illustrated accounts of Guru Nanak Dev Ji's life. British Library, MS Panj. B 40.",
+      "credit": "Photograph by Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:1733_CE_Janamsakhi_British_Library_MS_Panj_B_40,_Guru_Nanak_hagiography_1,_Bhai_Sangu_Mal.jpg"
+    },
+    {
+      "id": "janamsakhi-bhai-lalo",
+      "file": "lessons/janamsakhi-bhai-lalo.jpg",
+      "width": 824,
+      "height": 1205,
+      "alt": "A traditional painting of Guru Nanak Dev Ji and Bhai Mardana seated at the home of Bhai Lalo.",
+      "caption": "Guru Nanak Dev Ji and Bhai Mardana at the home of Bhai Lalo, from a janamsakhi painting of the 17th or 18th century.",
+      "credit": "Unknown artist",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Janamsakhi_painting_of_Guru_Nanak_and_Mardana_at_the_home_of_Bhai_Lalo.jpg"
+    },
+    {
+      "id": "janamsakhi-travellers",
+      "file": "lessons/janamsakhi-travellers.jpg",
+      "width": 1100,
+      "height": 1467,
+      "alt": "An open illustrated manuscript showing Guru Nanak Dev Ji with Bhai Mardana holding a rabab and Bhai Bala, meeting two figures with horses.",
+      "caption": "Guru Nanak Dev Ji with Bhai Mardana and Bhai Bala meeting travellers, from a janamsakhi painting, probably 18th or 19th century.",
+      "credit": "Unknown artist, 3HO Sikh Dharma Collection",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Janamsakhi_painting_of_Guru_Nanak_with_Bhai_Mardana_and_Bhai_Bala_meeting_with_two_other_figures_with_horses.jpg"
+    },
+    {
+      "id": "kartarpur",
+      "file": "lessons/kartarpur-darbar-sahib.jpg",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Gurdwara Darbar Sahib at Kartarpur, a white building with a central dome, reflected on a wide wet marble courtyard.",
+      "caption": "Gurdwara Darbar Sahib at Kartarpur, Pakistan, where Guru Nanak Dev Ji spent his final years.",
+      "credit": "Shahzaib Damn Cruze",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gurdwara_Darbar_Sahib_Kartarpur_02.jpg"
+    },
+    {
+      "id": "khadur-sahib-early",
+      "file": "lessons/khadur-sahib-early-photo.jpg",
+      "width": 1100,
+      "height": 1321,
+      "alt": "An old black and white photograph of the brick gateway and upper storey of Gurdwara Darbar Sahib at Khadur Sahib.",
+      "caption": "Gurdwara Darbar Sahib at Khadur Sahib, where Guru Angad Dev Ji lived, photographed in the late 19th or early 20th century.",
+      "credit": "Unknown photographer",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_Gurdwara_Sri_Darbar_Sahib_in_Khadur_Sahib,_circa_late_19th_or_early_20th_century.jpg"
+    }
+  ],
+  "places": [
+    {
+      "id": "nankana-sahib",
+      "name": "Nankana Sahib",
+      "gurmukhi": "ਨਨਕਾਣਾ ਸਾਹਿਬ",
+      "formerly": "Rai Bhoi di Talwandi",
+      "lat": 31.45,
+      "lon": 73.706,
+      "today": "Punjab, Pakistan",
+      "periods": [
+        "guru-nanak"
+      ],
+      "lessons": [
+        "from-talwandi-to-the-bein"
+      ],
+      "summary": "Birthplace of Guru Nanak Dev Ji in 1469. Gurdwara Janam Asthan stands on the site."
+    },
+    {
+      "id": "sultanpur-lodhi",
+      "name": "Sultanpur Lodhi",
+      "gurmukhi": "ਸੁਲਤਾਨਪੁਰ ਲੋਧੀ",
+      "lat": 31.215,
+      "lon": 75.197,
+      "today": "Punjab, India",
+      "periods": [
+        "guru-nanak"
+      ],
+      "lessons": [
+        "from-talwandi-to-the-bein"
+      ],
+      "summary": "Where Guru Nanak Dev Ji worked as a storekeeper and, around 1499, had his experience in the Bein river."
+    },
+    {
+      "id": "eminabad",
+      "name": "Eminabad",
+      "gurmukhi": "ਐਮਨਾਬਾਦ",
+      "formerly": "Saidpur",
+      "lat": 32.04,
+      "lon": 74.261,
+      "today": "Punjab, Pakistan",
+      "periods": [
+        "guru-nanak"
+      ],
+      "lessons": [
+        "the-udasis"
+      ],
+      "summary": "Home of Bhai Lalo. Guru Nanak Dev Ji witnessed Babur's attack on the town and described it in the Babarvani hymns."
+    },
+    {
+      "id": "kartarpur",
+      "name": "Kartarpur",
+      "gurmukhi": "ਕਰਤਾਰਪੁਰ",
+      "lat": 32.087,
+      "lon": 75.016,
+      "today": "Punjab, Pakistan, close to the border",
+      "periods": [
+        "guru-nanak"
+      ],
+      "lessons": [
+        "kartarpur"
+      ],
+      "summary": "The town Guru Nanak Dev Ji founded on the Ravi, where he lived his final years and died in 1539."
+    },
+    {
+      "id": "khadur-sahib",
+      "name": "Khadur Sahib",
+      "gurmukhi": "ਖਡੂਰ ਸਾਹਿਬ",
+      "lat": 31.409,
+      "lon": 75.095,
+      "today": "Punjab, India",
+      "periods": [
+        "early-gurus"
+      ],
+      "lessons": [
+        "kartarpur"
+      ],
+      "summary": "Home of Bhai Lehna, who became Guru Angad Dev Ji and led the Sikhs from here from 1539 to 1552."
+    },
+    {
+      "id": "goindwal-sahib",
+      "name": "Goindwal Sahib",
+      "gurmukhi": "ਗੋਇੰਦਵਾਲ ਸਾਹਿਬ",
+      "lat": 31.37,
+      "lon": 75.15,
+      "today": "Punjab, India",
+      "periods": [
+        "early-gurus"
+      ],
+      "lessons": [],
+      "summary": "On the Beas river. The centre of the Sikh community under Guru Amar Das Ji."
+    },
+    {
+      "id": "amritsar",
+      "name": "Amritsar",
+      "gurmukhi": "ਅੰਮ੍ਰਿਤਸਰ",
+      "formerly": "Ramdaspur",
+      "lat": 31.62,
+      "lon": 74.877,
+      "today": "Punjab, India",
+      "periods": [
+        "early-gurus",
+        "khalsa"
+      ],
+      "lessons": [],
+      "summary": "Founded by Guru Ram Das Ji. Guru Arjan Dev Ji installed the Adi Granth at Harmandir Sahib here in 1604."
+    },
+    {
+      "id": "lahore",
+      "name": "Lahore",
+      "gurmukhi": "ਲਾਹੌਰ",
+      "lat": 31.582,
+      "lon": 74.329,
+      "today": "Punjab, Pakistan",
+      "periods": [
+        "early-gurus"
+      ],
+      "lessons": [],
+      "summary": "Provincial capital under the Mughals. Guru Arjan Dev Ji was martyred here in 1606."
+    },
+    {
+      "id": "kiratpur-sahib",
+      "name": "Kiratpur Sahib",
+      "gurmukhi": "ਕੀਰਤਪੁਰ ਸਾਹਿਬ",
+      "lat": 31.182,
+      "lon": 76.574,
+      "today": "Punjab, India",
+      "periods": [
+        "khalsa"
+      ],
+      "lessons": [],
+      "summary": "In the Shivalik foothills. Guru Hargobind Sahib Ji spent his later years here."
+    },
+    {
+      "id": "anandpur-sahib",
+      "name": "Anandpur Sahib",
+      "gurmukhi": "ਅਨੰਦਪੁਰ ਸਾਹਿਬ",
+      "lat": 31.239,
+      "lon": 76.502,
+      "today": "Punjab, India",
+      "periods": [
+        "khalsa"
+      ],
+      "lessons": [],
+      "summary": "Where Guru Gobind Singh Ji founded the Khalsa on Vaisakhi in 1699."
     }
   ]
 }

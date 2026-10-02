@@ -1,0 +1,75 @@
+[
+  {
+    "id": "nankana-sahib",
+    "file": "lessons/nankana-sahib-janam-asthan.jpg",
+    "width": 1600, "height": 1200,
+    "alt": "The white domed building of Gurdwara Janam Asthan at Nankana Sahib under a blue sky, with a palm tree and a paved approach.",
+    "caption": "Gurdwara Janam Asthan at Nankana Sahib, Pakistan, built where Guru Nanak Dev Ji is remembered to have been born.",
+    "credit": "Harvinder Chandigarh",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Gurdwara_Nankana_Sahib_Janam_Asthan.jpg"
+  },
+  {
+    "id": "ber-sahib",
+    "file": "lessons/ber-sahib-sultanpur-lodhi.jpg",
+    "width": 1400, "height": 1016,
+    "alt": "Gurdwara Ber Sahib in Sultanpur Lodhi, a white building with a large dome, with visitors walking in front.",
+    "caption": "Gurdwara Ber Sahib in Sultanpur Lodhi, beside the Bein, marks the place associated with Guru Nanak Dev Ji's experience at the river.",
+    "credit": "Jiwanjot",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Ber_Sahib.jpg"
+  },
+  {
+    "id": "janamsakhi-1733",
+    "file": "lessons/janamsakhi-1733-b40.jpg",
+    "width": 1100, "height": 1683,
+    "alt": "An illustrated manuscript page with lines of Gurmukhi text above a painted scene of seated figures in a landscape.",
+    "caption": "A page from a janamsakhi manuscript made in 1733, one of the oldest surviving illustrated accounts of Guru Nanak Dev Ji's life. British Library, MS Panj. B 40.",
+    "credit": "Photograph by Ms Sarah Welch",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:1733_CE_Janamsakhi_British_Library_MS_Panj_B_40,_Guru_Nanak_hagiography_1,_Bhai_Sangu_Mal.jpg"
+  },
+  {
+    "id": "janamsakhi-bhai-lalo",
+    "file": "lessons/janamsakhi-bhai-lalo.jpg",
+    "width": 824, "height": 1205,
+    "alt": "A traditional painting of Guru Nanak Dev Ji and Bhai Mardana seated at the home of Bhai Lalo.",
+    "caption": "Guru Nanak Dev Ji and Bhai Mardana at the home of Bhai Lalo, from a janamsakhi painting of the 17th or 18th century.",
+    "credit": "Unknown artist",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Janamsakhi_painting_of_Guru_Nanak_and_Mardana_at_the_home_of_Bhai_Lalo.jpg"
+  },
+  {
+    "id": "janamsakhi-travellers",
+    "file": "lessons/janamsakhi-travellers.jpg",
+    "width": 1100, "height": 1467,
+    "alt": "An open illustrated manuscript showing Guru Nanak Dev Ji with Bhai Mardana holding a rabab and Bhai Bala, meeting two figures with horses.",
+    "caption": "Guru Nanak Dev Ji with Bhai Mardana and Bhai Bala meeting travellers, from a janamsakhi painting, probably 18th or 19th century.",
+    "credit": "Unknown artist, 3HO Sikh Dharma Collection",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Janamsakhi_painting_of_Guru_Nanak_with_Bhai_Mardana_and_Bhai_Bala_meeting_with_two_other_figures_with_horses.jpg"
+  },
+  {
+    "id": "kartarpur",
+    "file": "lessons/kartarpur-darbar-sahib.jpg",
+    "width": 1600, "height": 1200,
+    "alt": "Gurdwara Darbar Sahib at Kartarpur, a white building with a central dome, reflected on a wide wet marble courtyard.",
+    "caption": "Gurdwara Darbar Sahib at Kartarpur, Pakistan, where Guru Nanak Dev Ji spent his final years.",
+    "credit": "Shahzaib Damn Cruze",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Gurdwara_Darbar_Sahib_Kartarpur_02.jpg"
+  },
+  {
+    "id": "khadur-sahib-early",
+    "file": "lessons/khadur-sahib-early-photo.jpg",
+    "width": 1100, "height": 1321,
+    "alt": "An old black and white photograph of the brick gateway and upper storey of Gurdwara Darbar Sahib at Khadur Sahib.",
+    "caption": "Gurdwara Darbar Sahib at Khadur Sahib, where Guru Angad Dev Ji lived, photographed in the late 19th or early 20th century.",
+    "credit": "Unknown photographer",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_Gurdwara_Sri_Darbar_Sahib_in_Khadur_Sahib,_circa_late_19th_or_early_20th_century.jpg"
+  }
+]

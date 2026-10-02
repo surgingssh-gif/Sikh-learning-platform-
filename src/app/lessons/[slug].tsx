@@ -2,10 +2,10 @@ import { Link, useLocalSearchParams } from 'expo-router';
 import { useEffect } from 'react';
 import { View } from 'react-native';
 
-import { ArticleBody, Badge, Container, Illustration, LessonTeaser, Page, Rule, SectionHead, Txt, Quiz } from '@/components';
-import { getSource, getUnit, lessons, getLesson, nextLesson } from '@/content';
+import { ArticleBody, Badge, Container, LessonTeaser, Page, Photo, Rule, SectionHead, Txt, Quiz } from '@/components';
+import { getLesson, getSource, getUnit, lessons, nextLesson, previousLesson } from '@/content';
 import { markStarted } from '@/lib/progress';
-import { space } from '@/theme';
+import { space, useBreakpoint, useColors } from '@/theme';
 
 import NotFound from '../+not-found';
 
@@ -16,6 +16,8 @@ export function generateStaticParams() {
 export default function LessonPage() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
   const lesson = getLesson(slug);
+  const c = useColors();
+  const { isTablet } = useBreakpoint();
 
   useEffect(() => {
     if (lesson) markStarted(lesson.slug);
@@ -24,9 +26,10 @@ export default function LessonPage() {
   if (!lesson) return <NotFound />;
   const unit = getUnit(lesson.unit);
   const next = nextLesson(lesson);
+  const prev = previousLesson(lesson);
 
   return (
-    <Page title={lesson.title} description={lesson.dek}>
+    <Page title={lesson.title} description={lesson.dek} readingProgress>
       <Container narrow style={{ paddingTop: space.xxl, gap: space.xl }}>
         <View style={{ gap: space.md }}>
           {unit ? (
@@ -54,14 +57,21 @@ export default function LessonPage() {
           </View>
         </View>
 
-        {lesson.figure ? (
-          <View style={{ gap: space.sm }}>
-            <Illustration name={lesson.figure} label={lesson.figureCaption ?? lesson.title} />
-            <Txt variant="caption" tone="muted">
-              {lesson.figureCaption}
-            </Txt>
-          </View>
-        ) : null}
+        <Photo id={lesson.image} />
+
+        <View style={{ borderTopWidth: 2, borderTopColor: c.ruleStrong, borderBottomWidth: 1, borderBottomColor: c.rule, paddingVertical: space.lg, gap: space.sm }}>
+          <Txt variant="kicker">In short</Txt>
+          {lesson.keyPoints.map((point, i) => (
+            <View key={i} style={{ flexDirection: 'row', gap: space.md }}>
+              <Txt variant="bodySmall" tone="accent" style={{ width: 12 }}>
+                •
+              </Txt>
+              <Txt variant="bodySmall" style={{ flex: 1 }}>
+                {point}
+              </Txt>
+            </View>
+          ))}
+        </View>
 
         <ArticleBody blocks={lesson.blocks} />
 
@@ -81,15 +91,34 @@ export default function LessonPage() {
           <Quiz slug={lesson.slug} questions={lesson.quiz} />
         </View>
 
-        {next ? (
-          <View style={{ marginTop: space.xxxl, gap: space.lg }}>
-            <Rule kind="double" />
-            <Txt variant="kicker" tone="muted">
-              Next lesson
-            </Txt>
-            <LessonTeaser lesson={next} size="L" />
+        <View style={{ marginTop: space.xxxl, gap: space.lg }}>
+          <Rule kind="double" />
+          <View style={{ flexDirection: isTablet ? 'row' : 'column', gap: space.xl }}>
+            {prev ? (
+              <View style={isTablet ? { flex: 1 } : undefined}>
+                <Txt variant="kicker" tone="muted" style={{ marginBottom: space.sm }}>
+                  Previous lesson
+                </Txt>
+                <LessonTeaser lesson={prev} size="S" showDek={false} />
+              </View>
+            ) : null}
+            {next ? (
+              <View style={isTablet ? { flex: 1 } : undefined}>
+                <Txt variant="kicker" tone="muted" style={{ marginBottom: space.sm }}>
+                  Next lesson
+                </Txt>
+                <LessonTeaser lesson={next} size="S" showDek={false} />
+              </View>
+            ) : (
+              <View style={isTablet ? { flex: 1 } : undefined}>
+                <Txt variant="kicker" tone="muted" style={{ marginBottom: space.sm }}>
+                  Up next
+                </Txt>
+                <Txt variant="headlineS">You have reached the end of the lessons so far. Unit 2 is being written.</Txt>
+              </View>
+            )}
           </View>
-        ) : null}
+        </View>
       </Container>
     </Page>
   );

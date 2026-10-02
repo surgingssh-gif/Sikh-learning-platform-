@@ -19,6 +19,7 @@ export const blockSchema = z.discriminatedUnion('type', [
     attribution: z.string().optional(),
   }),
   z.object({ type: z.literal('perspectives'), content: z.array(z.array(inlineSchema)) }),
+  z.object({ type: z.literal('figure'), id: z.string() }),
 ]);
 
 export const questionSchema = z.object({
@@ -43,8 +44,8 @@ export const frontmatterSchema = z.object({
   status: z.enum(['draft', 'in-review', 'approved']),
   reviewedBy: z.string().nullable(),
   reviewedOn: z.string().nullable(),
-  figure: z.enum(['bein', 'road', 'fields']).optional(),
-  figureCaption: z.string().optional(),
+  image: z.string(),
+  keyPoints: z.array(z.string()).min(2).max(4),
   sources: z.array(z.string()).min(1),
 });
 
@@ -79,12 +80,42 @@ export const eventSchema = z.object({
   unit: z.number().int().optional(),
 });
 
+export const mediaSchema = z.object({
+  id: z.string(),
+  file: z.string(),
+  width: z.number().int(),
+  height: z.number().int(),
+  alt: z.string(),
+  caption: z.string(),
+  credit: z.string(),
+  license: z.string(),
+  licenseUrl: z.string().url().optional(),
+  source: z.string().url(),
+});
+
+export const periodIds = ['guru-nanak', 'early-gurus', 'khalsa'] as const;
+
+export const placeSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  gurmukhi: z.string(),
+  formerly: z.string().optional(),
+  lat: z.number().min(30).max(33),
+  lon: z.number().min(73).max(77),
+  today: z.string(),
+  periods: z.array(z.enum(periodIds)).min(1),
+  lessons: z.array(z.string()),
+  summary: z.string(),
+});
+
 export const contentSchema = z.object({
   units: z.array(unitSchema),
   lessons: z.array(lessonSchema),
   glossary: z.array(termSchema),
   sources: z.array(sourceSchema),
   timeline: z.array(eventSchema),
+  media: z.array(mediaSchema),
+  places: z.array(placeSchema),
 });
 
 export type Inline = z.infer<typeof inlineSchema>;
@@ -96,3 +127,6 @@ export type Term = z.infer<typeof termSchema>;
 export type Source = z.infer<typeof sourceSchema>;
 export type TimelineEvent = z.infer<typeof eventSchema>;
 export type Content = z.infer<typeof contentSchema>;
+export type Media = z.infer<typeof mediaSchema>;
+export type Place = z.infer<typeof placeSchema>;
+export type PeriodId = (typeof periodIds)[number];
